@@ -34,66 +34,71 @@
 
 <body>
 	<div class="container">
-		<div class="col-md-12">
-			<h1>Work Samples</h1>
-			<a href="/resume">&lt;&lt; Back To Resume</a><br>
-			<a href="/">&lt;&lt; Back To Home Page</a>
-			
-			<div id="content_marketing">&nbsp;</div>
-			<h3>Content Marketing Examples</h3>
-			<div class="table-responsive">
-				<table class="table-striped">
-					<thead>
-						<tr>
-							<th>Link</th>
-							<th>Content Type</th>
-							<th>Description</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2016-02-26_-_Good_Things_Come_In_Threes.PNG" target="_blank">2016-02-26 - Good Things Come In Threes</a></td>
-							<td>Email Marketing</td>
-							<td>
-								<p>When  business is slow, big discounts can help drive growth.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2015-12-18 - Holiday Savings.pdf" target="_blank">2015-12-18 - Holiday Savings.pdf</a></td>
-							<td>Email Marketing</td>
-							<td>
-								<p>Many newsletters are driven by current events and holidays. These times are great for sales and promotions.</p>
-								<p>Leveraging sales and promotions effectively is all about communicating simple value propositions.</p>
-							</td>
-						</tr>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2015-11-05 - Tech 2U Arrested.PNG" target="_blank">2015-11-05 - Tech 2U Arrested.PNG</a></td>
-							<td>Social Media</td>
-							<td>Sometimes funny does it. This campaign came from an improvised photo taken at a street fair downtown while doing some presence marketing and canvassing.</td>
-						</tr>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2015-10-07 - Win10 amp Carbonite.pdf" target="_blank">2015-10-07 - Win10 & Carbonite.pdf</a></td>
-							<td>Email Marketing</td>
-							<td></td>
-						</tr>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2015-07-29 - Reserve Your FREE Copy of Windows 10 Today.pdf" target="_blank">2015-07-29 - Reserve Your FREE Copy of Windows 10 Today.pdf</a></td>
-							<td>Email Marketing</td>
-							<td>This campaign leverages current events to drive inbound sales and create engagement around sales opportunities.</td>
-						</tr>
-						<tr>
-							<td><a href="/resume/work_samples/content_marketing/2013-11-27 - We Fix Any Tech Problem.PNG" target="_blank">2013-11-27 - We Fix Any Tech Problem.PNG</a></td>
-							<td>Social Media</td>
-							<td>This is an example of great, engaging content; I found a charismatic employee and added a simple message, "We Fix Any Tech Issue."</td>
-						</tr>
-					</tbody>
-				</table>
+		<div class="row">
+			&nbsp;
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<h1>Work Samples</h1>
+				<a href="/resume">&lt;&lt; Back To Resume</a><br>
+				<a href="/">&lt;&lt; Back To Home Page</a>
+				
+				<div id="content_marketing">&nbsp;</div>
+				<h3>Content Marketing Examples</h3>
+				<div class="table-responsive">
+					<table class="table-striped">
+						<thead>
+							<tr>
+								<th>Link</th>
+								<th>Content Type</th>
+								<th>Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2016-02-26_-_Good_Things_Come_In_Threes.PNG" target="_blank">2016-02-26 - Good Things Come In Threes</a></td>
+								<td>Email Marketing</td>
+								<td>
+									<p>When  business is slow, big discounts can help drive growth.</p>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2015-12-18 - Holiday Savings.pdf" target="_blank">2015-12-18 - Holiday Savings.pdf</a></td>
+								<td>Email Marketing</td>
+								<td>
+									<p>Many newsletters are driven by current events and holidays. These times are great for sales and promotions.</p>
+									<p>Leveraging sales and promotions effectively is all about communicating simple value propositions.</p>
+								</td>
+							</tr>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2015-11-05 - Tech 2U Arrested.PNG" target="_blank">2015-11-05 - Tech 2U Arrested.PNG</a></td>
+								<td>Social Media</td>
+								<td>Sometimes funny does it. This campaign came from an improvised photo taken at a street fair downtown while doing some presence marketing and canvassing.</td>
+							</tr>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2015-10-07 - Win10 amp Carbonite.pdf" target="_blank">2015-10-07 - Win10 & Carbonite.pdf</a></td>
+								<td>Email Marketing</td>
+								<td></td>
+							</tr>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2015-07-29 - Reserve Your FREE Copy of Windows 10 Today.pdf" target="_blank">2015-07-29 - Reserve Your FREE Copy of Windows 10 Today.pdf</a></td>
+								<td>Email Marketing</td>
+								<td>This campaign leverages current events to drive inbound sales and create engagement around sales opportunities.</td>
+							</tr>
+							<tr>
+								<td><a href="/resume/work_samples/content_marketing/2013-11-27 - We Fix Any Tech Problem.PNG" target="_blank">2013-11-27 - We Fix Any Tech Problem.PNG</a></td>
+								<td>Social Media</td>
+								<td>This is an example of great, engaging content; I found a charismatic employee and added a simple message, "We Fix Any Tech Issue."</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<!--div id="enterprise_development"></div>
+				<h3>Enterprise Development</h3>
+				<ul>
+					<li></li>
+				</ul-->
 			</div>
-			<!--div id="enterprise_development"></div>
-			<h3>Enterprise Development</h3>
-			<ul>
-				<li></li>
-			</ul-->
 		</div>
 	</div>
 	<!-- jQuery first, then Bootstrap JS. -->
