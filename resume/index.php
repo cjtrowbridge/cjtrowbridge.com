@@ -72,9 +72,12 @@
 				</ul>
 
 				<h3>Volunteer Work</h3>
-				<em>2013-2015</em>
+				
+				<a href="http://www.standupplacer.org/" target="_blank">Stand Up Placer</a> <em>2013-2016</em>
 				<ul>
-					<li>Ongoing volunteer work with <a href="http://www.standupplacer.org/" target="_blank">Stand Up Placer</a></li>
+					<li>Working at fundraisers</li>
+					<li>Participating in events to drive public awareness</li>
+					<li>Frequent business consulting</li>
 				</ul>
 				<h3>Other Skills</h3>
 				<ul>
