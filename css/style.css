@@ -1,0 +1,18 @@
+img{
+	width: 100%;
+	max-width: 100%;
+}
+html, body{
+	height: 100%;
+}
+.container{
+	min-height: 100%;
+	padding-bottom: 4rem;
+}
+.footer{
+	position: relative;
+	margin-top: -4rem;
+	height: 2rem;
+	clear:both;
+	text-align: center;
+}
