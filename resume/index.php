@@ -32,7 +32,7 @@
 				<h1>Resume and Industry Awards</h1>
 				<a href="/">&lt;&lt; Back To Home Page</a>
 				
-				<div id="tech_2u"></div>
+				<div id="tech_2u">&nbsp;</div>
 				<h3>Tech 2U</h3>
 				<strong>Enterprise Development</strong>
 				<em>April 2013-Present</em>
