@@ -22,28 +22,33 @@
 </head>
 
 <body>
-	<div class="container"></div>
-		<div class="col-md-12" id="main">
-			<div class="col-md-4 col-sm-12">
-				<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
-			</div>
-			<div class="col-md-8 col-sm-12">
-				<h2>I'm CJ Trowbridge.</h2>
-				<ul>
-					<li>
-						I am a tenth-generation American with a family <a href="//trowbridge.house" target="_blank">history</a> of 4 
-						centuries of American entrepreneurship and humanitarianism, and English entrepreneurship before that. We share a 
-						love of travel and adventure, along with a passion for tackling new problems and helping people.
-					</li>
-					<li>
-						My projects and career have taken me though many fields from building a cafe to creating ecommerce websites for 
-						small businesses. I am currently delving into intrapreneurship with <a href="//tech2u.com" target="_blank">Tech 2U</a>, 
-						leading Enterprise Development.
-					</li>
-					<li>
-						The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
-					</li>
-				</ul>
+	<div class="container">
+		<div class="row">
+			&nbsp;
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-4 col-sm-12">
+					<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
+				</div>
+				<div class="col-md-8 col-sm-12">
+					<h2>I'm CJ Trowbridge.</h2>
+					<ul>
+						<li>
+							I am a tenth-generation American with a family <a href="//trowbridge.house" target="_blank">history</a> of 4 
+							centuries of American entrepreneurship and humanitarianism, and English entrepreneurship before that. We share a 
+							love of travel and adventure, along with a passion for tackling new problems and helping people.
+						</li>
+						<li>
+							My projects and career have taken me though many fields from building a cafe to creating ecommerce websites for 
+							small businesses. I am currently delving into intrapreneurship with <a href="//tech2u.com" target="_blank">Tech 2U</a>, 
+							leading Enterprise Development.
+						</li>
+						<li>
+							The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
