@@ -33,7 +33,7 @@
 				<a href="/">&lt;&lt; Back To Home Page</a>
 				
 				<div id="tech_2u">&nbsp;</div>
-				<h3>Tech 2U</h3>
+				<h3><a href="https://tech2u.com" target="_blank">Tech 2U</a></h3>
 				<strong>Enterprise Development</strong>
 				<em>April 2013-Present</em>
 				<ul>
@@ -46,7 +46,7 @@
 					<li>Marketing implementation <strong>cost</strong> <strong>savings of 31.3%</strong> over the company's previous marketing and outreach programs</li>
 				</ul>
 				<div id="sequoia_equities"></div>
-				<h3>Sequoia Equities</h3>
+				<h3><a href="http://www.experiencesequoia.com/" target="_blank">Sequoia Equities</a></h3>
 				<strong>Developer, "Innovation Champion" Award Winner</strong>
 				<em>2011 - 2012</em>
 				<ul>
@@ -60,7 +60,7 @@
 					<li>My new food carts brought in an average of <strong>$2,000 per week</strong>, with 75% of that being profit</li>
 				</ul>
 				<div id="starbucks_corporation"></div>
-				<h3>Starbucks Corporation</h3>
+				<h3><a href="https://starbucks.com" target="_blank">Starbucks Corporation</a></h3>
 				<strong>Customer Service, Leadership</strong>
 				<em>2008 - 2014</em>
 				<ul>
