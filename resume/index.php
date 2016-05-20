@@ -38,6 +38,7 @@
 				<em>April 2013-Present</em>
 				<ul>
 					<li>Brought in hundreds of thousands of dollars in new revenue;</li>
+					<li>Lead a team developing custom CRM tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
 					<li>Created a position for myself developing and expanding a diverse, multiregional business</li>
 					<li>My Enterprise Development work has produced well over <strong>$200,000 in new revenue</strong>, growing to bring in over <b>$50k/month</b> by building employee development around my new real-time KPI leaderboards and incentives</li>
 					<li>My <a href="./work_samples/" target="_blank">content marketing work</a> has brought in almost <strong>$80k in revenue</strong> to date through email marketing, social media and direct mail</li>
