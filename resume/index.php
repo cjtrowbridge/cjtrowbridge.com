@@ -54,7 +54,7 @@
 					<li>Transformed a failed cafe into a thriving business</li>
 					<li>Earned Sequoia's "Innovation Champion" award for 2012</li>
 					<li>Contracted during a large equities corporation's takeover of several dormitories with lots of room for development and revenue growth</li>
-					<li>Built and led a team in developing and reopening a cafe and several new mobile food carts with the goal of effectively, efficiently targeting premium, niche markets</li>
+					<li>Built and led a team, developing and reopening a cafe and several new mobile food carts with the goal of effectively, efficiently targeting premium, niche markets</li>
 					<li>Developed significant relationships with customers and vendors like Starbucks and Sysco</li>
 					<li>Developed inventory management, company culture, and efficient operations</li>
 					<li>My efforts led to <strong>growth of 1600%</strong> in the cafe over historic data. Instead of operating in the red with an average of just $50 per day in revenue, it was now bringing in close to <strong>$800 revenue per day</strong>, with about a 50% profit margin</li>
