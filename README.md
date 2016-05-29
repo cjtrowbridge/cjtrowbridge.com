@@ -8,6 +8,7 @@ Now with Bootstrap 4!
 ###Tech 2U
 **Enterprise Development April 2013-Present**  
 -Brought in hundreds of thousands of dollars in new revenue;  
+-Lead a team developing custom CRM tools with an emphasis on driving new growth, and commodifying these tools into new products
 -Created a position for myself developing and expanding a diverse, multiregional business  
 -My Enterprise Development work has produced well over $200,000 in new revenue, growing to bring in over $50k/month by building employee development around my new real-time KPI leaderboards and incentives  
 -My content marketing work has brought in almost $80k in revenue to date through email marketing, social media and direct mail  
