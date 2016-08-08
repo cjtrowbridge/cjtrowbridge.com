@@ -28,7 +28,7 @@
 				<p><a href="javascript:var d=document,f='https://www.facebook.com/share',l=d.location,e=encodeURIComponent,p='.php?src=bm&v=4&i=1396905616&u='+e(l.href)+'&t='+e(d.title);1;try{if (!/^(.*\.)?facebook\.[^.]*$/.test(l.host))throw(0);share_internal_bookmarklet(p)}catch(z) {a=function() {if (!window.open(f+'r'+p,'sharer','toolbar=0,status=0,resizable=1,width=626,height=436'))l.href=f+p};if (/Firefox/.test(navigator.userAgent))setTimeout(a,0);else{a()}}void(0)">Share via Facebook</a></p>
 				
 				<h2>Development Tools</h2>
-				<p><a href="javascript:var sourceWindow %3D window.open('about:blank'); %0Avar newDoc %3D sourceWindow.document; %0AnewDoc.open(); %0AnewDoc.write('<html><head><title>Source of ' %2B document.location.href %2B '</title></head><body></body></html>'); %0AnewDoc.close(); %0Avar pre %3D newDoc.body.appendChild(newDoc.createElement("pre")); %0Apre.appendChild(newDoc.createTextNode(document.documentElement.innerHTML));"></a></p>
+				<p><a href="javascript:var sourceWindow %3D window.open('about:blank'); %0Avar newDoc %3D sourceWindow.document; %0AnewDoc.open(); %0AnewDoc.write('<html><head><title>Source of ' %2B document.location.href %2B '</title></head><body></body></html>'); %0AnewDoc.close(); %0Avar pre %3D newDoc.body.appendChild(newDoc.createElement("pre")); %0Apre.appendChild(newDoc.createTextNode(document.documentElement.innerHTML));">Show Page Source With Current State</a></p>
 				
 			</div>
 		</div>
