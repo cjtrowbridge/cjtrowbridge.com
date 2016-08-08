@@ -24,7 +24,9 @@
 				
 				<h2>Sharing</h2>
 				<p>These are some helpful links for adding functionality to your browser. Drag them into the bookmarks bar to add them!</p>
+				<p><a href="javascript:location.href='mailto:?SUBJECT='+document.title+'&BODY='+escape(location.href);">Email With Outlook</a></p>
 				<p><a href="javascript:(function(){m='http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su='+encodeURIComponent(document.title)+'&body='+encodeURIComponent(document.location);w=window.open(m,'addwindow','status=no,toolbar=no,width=575,height=545,resizable=yes');setTimeout(function(){w.focus();}, 250);})();">Email via GMail</a></p
+				
 				<p><a href="javascript:var d=document,f='https://www.facebook.com/share',l=d.location,e=encodeURIComponent,p='.php?src=bm&v=4&i=1396905616&u='+e(l.href)+'&t='+e(d.title);1;try{if (!/^(.*\.)?facebook\.[^.]*$/.test(l.host))throw(0);share_internal_bookmarklet(p)}catch(z) {a=function() {if (!window.open(f+'r'+p,'sharer','toolbar=0,status=0,resizable=1,width=626,height=436'))l.href=f+p};if (/Firefox/.test(navigator.userAgent))setTimeout(a,0);else{a()}}void(0)">Share via Facebook</a></p>
 				
 				<h2>Development Tools</h2>
