@@ -16,3 +16,6 @@ html, body{
 	clear:both;
 	text-align: center;
 }
+li{
+	padding-bottom: 1em;
+}
