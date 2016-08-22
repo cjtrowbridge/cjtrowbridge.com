@@ -12,10 +12,11 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 	
-	<link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
+	<!--link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"-->
+	<link rel="icon" type="image/jpg href="/cj.jpg">
 	<meta name="theme-color" content="#ffffff">
 	
 	<link rel="stylesheet" href="https://cjtrowbridge.com/css/style.css">
