@@ -37,6 +37,7 @@
 				<strong>Enterprise Development</strong>
 				<em>April 2013-Present</em>
 				<ul>
+					<il>I build scalable, commodified, marketable business solutions to the shared problems faced by field services companies; solving problems from operational logistics and real-time KPIs to payroll and automated marketing.</il>
 					<li>Brought in hundreds of thousands of dollars in new revenue;</li>
 					<li>Lead a team developing custom CRM tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
 					<li>Created a position for myself developing and expanding a diverse, multiregional business</li>
