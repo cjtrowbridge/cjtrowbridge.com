@@ -37,8 +37,8 @@
 				<strong>Enterprise Development</strong>
 				<em>April 2013-Present</em>
 				<ul>
-					<li>I build scalable, commodified, marketable business solutions to the shared problems faced by field services companies; solving problems like marketing automation, operational logistics, real-time KPIs, and payroll.</li>
-					<li>Brought in hundreds of thousands of dollars in new revenue;</li>
+					<li>I am building scalable, marketable business solutions to the shared problems faced by field services companies; solving problems like marketing automation, operational logistics, real-time KPIs, and payroll.</li>
+					<li>Brought in more than a million dollars in new revenue in under two years</li>
 					<li>Lead a team developing custom CRM and Marketing Automation tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
 					<li>Created a position for myself developing and expanding a diverse, multiregional business</li>
 					<li>My Enterprise Development work has produced well over <strong>$1.1m in new revenue</strong> since January 2015, growing to bring in over <b>$50k/month</b> by building employee development around my new real-time KPI leaderboards and incentives</li>
