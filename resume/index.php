@@ -41,7 +41,7 @@
 					<li>Brought in more than a million dollars in new revenue in under two years</li>
 					<li>Lead a team developing custom CRM and Marketing Automation tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
 					<li>Created a position for myself developing and expanding a diverse, multiregional business</li>
-					<li>My Enterprise Development work has produced well over <strong>$1.1m in new revenue</strong> since January 2015, growing to bring in over <b>$50k/month</b> by building employee development around my new real-time KPI leaderboards and incentives</li>
+					<li>My Enterprise Development work has produced well over <strong>$1.1m in new revenue</strong> since January 2015, growing to bring in over <b>$50k/month.</b> By building on my experience at Starbucks, I built scaled employee development systems like my new real-time KPI leaderboards and performance incentives programs</li>
 					<li>My <a href="./work_samples/" target="_blank">content marketing work</a> has brought in almost <strong>$80k in revenue</strong> to date through email marketing, social media and direct mail</li>
 					<li>I built an outreach team and a marketing automation platform which has brought in over <strong>$158k in revenue</strong> to date, with over 88% profit</li>
 					<li>Co-manage all daily operations and logistics for the company along with a leadership team, and assist with inbound and outbound sales</li>
