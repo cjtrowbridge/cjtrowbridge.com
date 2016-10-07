@@ -37,15 +37,15 @@
 				<strong>Enterprise Development</strong>
 				<em>April 2013-Present</em>
 				<ul>
-					<li>I am building scalable, marketable business solutions to the shared problems faced by field services companies; solving problems like marketing automation, operational logistics, real-time KPIs, and payroll.</li>
-					<li>Brought in more than a million dollars in new revenue in under two years</li>
-					<li>Lead a team developing custom CRM and Marketing Automation tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
+					<li>I am building scalable, marketable business solutions to the shared problems faced by field services companies, such as marketing automation, operational logistics, real-time KPIs, and payroll</li>
+					<li>My work has brought in well over a million dollars in new revenue in under two years</li>
+					<li>I lead a team developing custom CRM and Marketing Automation tools with an emphasis on driving new growth, and commodifying these tools into new products</li>
 					<li>Created a position for myself developing and expanding a diverse, multiregional business</li>
-					<li>My Enterprise Development work has produced well over <strong>$1.1m in new revenue</strong> since January 2015, growing to bring in over <b>$50k/month.</b> By building on my experience at Starbucks, I built scaled employee development systems like my new real-time KPI leaderboards and performance incentives programs</li>
+					<li>My Enterprise Development work has produced well over <strong>$1.1m in new revenue</strong> since January 2015, growing to bring in over <b>$50k/month.</b> By building on my experience at Starbucks, I created scaled employee development systems like my new real-time KPI leaderboards and performance incentives programs</li>
 					<li>My <a href="./work_samples/" target="_blank">content marketing work</a> has brought in almost <strong>$80k in revenue</strong> to date through email marketing, social media and direct mail</li>
 					<li>I built an outreach team and a marketing automation platform which has brought in over <strong>$158k in revenue</strong> to date, with over 88% profit</li>
 					<li>Co-manage all daily operations and logistics for the company along with a leadership team, and assist with inbound and outbound sales</li>
-					<li>Marketing implementation <strong>cost</strong> <strong>savings of 31.3%</strong> over the company's previous marketing and outreach programs; my work is highly profitable compared to the other revenue the company is bringing in</li>
+					<li>Marketing implementation <strong>cost savings of 31.3%</strong> over the company's previous marketing and outreach programs; my work is highly profitable compared to the other revenue the company is bringing in</li>
 				</ul>
 				<div id="sequoia_equities"></div>
 				<h3><a href="//www.experiencesequoia.com/" target="_blank">Sequoia Equities</a></h3>
