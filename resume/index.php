@@ -66,7 +66,7 @@
 				<strong>Customer Service, Leadership</strong>
 				<em>2008 - 2014</em>
 				<ul>
-					<li>Responsible for several advanced internal roles including leading roles including <b>Playbook</b> and the <b>Coffee Master</b> program</li>
+					<li>Responsible for several advanced internal ledaershop roles including <b>Playbook</b> and the <b>Coffee Master</b> program</li>
 					<li>Responsible for management and leadership, training new employees, cash-handling, and using product knowledge to identify and create sales opportunities, while creating enthusiastically satisfied customer experiences at some of the busiest stores in the country in Portland and Sacramento.</li>
 					<li>My most recent advanced project was leading the regional implementation of a new scaled labor algorithm program called "<b>Playbook</b>." This program was a radical change for the company which called on those of us with excellent leadership skills to execute big changes across the world simultaneously. I was responsible for conducting most of the initial training for the Sacramento region, and following-up with hundreds of employees in different locations to verify the program was being deployed correctly across the area.</li>
 					<li>I was also a <strong>Coffee Master</strong> which is a leadership program focused on the education of customers and employees in the more subtle and advanced aspects of the products and processes involved in the culture that Starbucks wants to create. I taught many seminars and workshops on methods and best practices for using Starbucks products as well as understanding the global economics and social concerns involved and how they influence the final product.</li>
