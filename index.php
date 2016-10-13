@@ -28,6 +28,7 @@
 					<p>
 						<i>Award winning innovator and developer, looking for business solutions to shared problems</i>
 					</p>
+					<hr>
 					<p>
 						Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
 					</p>
