@@ -5,7 +5,9 @@ img{
 }
 html, body{
 	height: 100%;
-	vertical-align: middle;
+}
+body{
+	padding-top: 1em;
 }
 .container{
 	min-height: 100%;
