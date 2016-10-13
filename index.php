@@ -19,7 +19,7 @@
 	<link rel="icon" type="image/jpg" href="/cj.jpg">
 	<meta name="theme-color" content="#ffffff">
 	
-	<link rel="stylesheet" href="https://cjtrowbridge.com/css/style.css">
+	<link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
