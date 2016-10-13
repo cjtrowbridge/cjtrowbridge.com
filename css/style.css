@@ -6,12 +6,11 @@ img{
 html, body{
 	height: 100%;
 }
-body{
-	padding-top: calc(50% - 360px);
-}
 .container{
 	min-height: 100%;
 	padding-bottom: 5rem;
+	vertical-align: middle;
+
 }
 .footer{
 	position: relative;
