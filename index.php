@@ -24,9 +24,9 @@
 					<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
 				</div>
 				<div class="col-md-8 col-sm-12">
-					<h1>I'm CJ Trowbridge.</h1>
+					<h1>CJ Trowbridge</h1>
 					<p>
-						Award winning innovator and developer, looking for business solutions to shared problems.
+						<i>Award winning innovator and developer, looking for business solutions to shared problems</i>
 					</p>
 					<p>
 						Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
