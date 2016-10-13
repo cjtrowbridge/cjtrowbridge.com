@@ -36,18 +36,13 @@
 					<h2>I'm CJ Trowbridge.</h2>
 					<ul>
 						<li>
-							I am a social-justice and development minded entrepreneur and volunteer. A futurist, I look for business solutions to 
-							shared problems. Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
+							Award winning innovator and developer, looking for business solutions to shared problems.
 						</li>
 						<li>
-							My projects and career have taken me though many fields from building a cafe to creating ecommerce websites for 
-							small businesses. I am currently delving into intrapreneurship with <a href="//tech2u.com" target="_blank">Tech 2U</a>, 
-							leading Enterprise Development.
+							Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
 						</li>
 						<li>
-							I am a tenth-generation American with a family <a href="//trowbridge.house" target="_blank">history</a> of 4 
-							centuries of American entrepreneurship and humanitarianism, and English entrepreneurship before that. We share a 
-							love of travel and adventure, along with a passion for tackling new problems and helping people.
+							I was born into a family with <a href="//trowbridge.house" target="_blank">ten generations</a> of American entrepreneurship, and English entrepreneurship before that.
 						</li>
 						<li>
 							The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
