@@ -36,7 +36,7 @@
 						This year was my first at Burning Man. Check out some <a href="https://blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 video</a> I took!
 					</p>
 					<p>
-						I was born into a family with <a href="//trowbridge.house" target="_blank">ten generations</a> of American entrepreneurship, and English entrepreneurship before that.
+						I was born a tenth generation <a href="//trowbridge.house" target="_blank">ten generation</a> American entrepreneur.
 					</p>
 					<p>
 						The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
