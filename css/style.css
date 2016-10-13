@@ -1,6 +1,7 @@
 img{
 	width: 100%;
 	max-width: 100%;
+	border-radius: 1em;
 }
 html, body{
 	height: 100%;
