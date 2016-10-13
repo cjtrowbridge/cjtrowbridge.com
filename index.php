@@ -25,29 +25,24 @@
 <body>
 	<div class="container">
 		<div class="row">
-			&nbsp;
-		</div>
-		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-4 col-sm-12">
 					<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
 				</div>
 				<div class="col-md-8 col-sm-12">
-					<h2>I'm CJ Trowbridge.</h2>
-					<ul>
-						<li>
-							Award winning innovator and developer, looking for business solutions to shared problems.
-						</li>
-						<li>
-							Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
-						</li>
-						<li>
-							I was born into a family with <a href="//trowbridge.house" target="_blank">ten generations</a> of American entrepreneurship, and English entrepreneurship before that.
-						</li>
-						<li>
-							The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
-						</li>
-					</ul>
+					<h1>I'm CJ Trowbridge.</h1>
+					<p>
+						Award winning innovator and developer, looking for business solutions to shared problems.
+					</p>
+					<p>
+						Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
+					</p>
+					<p>
+						I was born into a family with <a href="//trowbridge.house" target="_blank">ten generations</a> of American entrepreneurship, and English entrepreneurship before that.
+					</p>
+					<p>
+						The best way to get ahold of me is by email at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a>.
+					</p>
 				</div>
 			</div>
 		</div>
