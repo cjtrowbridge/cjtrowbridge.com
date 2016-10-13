@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
 	<title>CJ Trowbridge</title>
 	
@@ -12,16 +11,11 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
 	
-	<!--link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"-->
 	<link rel="icon" type="image/jpg" href="/cj.jpg">
 	<meta name="theme-color" content="#ffffff">
 	
 	<link rel="stylesheet" href="/css/style.css">
 </head>
-
 <body>
 	<div class="container">
 		<div class="row">
@@ -36,6 +30,9 @@
 					</p>
 					<p>
 						Check out my blog post about <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
+					</p>
+					<p>
+						This year was my first at Burning Man. Check out some <a href="https://blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 video</a> I took!
 					</p>
 					<p>
 						I was born into a family with <a href="//trowbridge.house" target="_blank">ten generations</a> of American entrepreneurship, and English entrepreneurship before that.
@@ -59,5 +56,4 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
 </body>
-
 </html>
