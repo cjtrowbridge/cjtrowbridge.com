@@ -8,7 +8,8 @@ html, body{
 }
 .container{
 	min-height: 100%;
-	padding-bottom: 4rem;
+	padding-bottom: 5rem;
+	padding-top: 1em;
 }
 .footer{
 	position: relative;
@@ -16,7 +17,4 @@ html, body{
 	height: 2rem;
 	clear:both;
 	text-align: center;
-}
-li{
-	padding-bottom: .5em;
 }
