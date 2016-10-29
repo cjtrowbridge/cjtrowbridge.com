@@ -35,7 +35,7 @@ function round_up($number, $precision = 2)
 						Check out my blog post on <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
 					</p>
 					<p>
-						This year was my first at Burning Man (<?php echo round_up((strtotime('SEP 02, 2017')-time())/(60*60*24)); ?>). Check out some <a href="https://blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 video</a> I took!
+						This year was my first at Burning Man (<?php echo round_up((strtotime('SEP 02, 2017')-time())/(60*60*24),0); ?>). Check out some <a href="https://blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 video</a> I took!
 					</p>
 					<p>
 						I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon.
