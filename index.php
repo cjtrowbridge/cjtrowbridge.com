@@ -28,7 +28,7 @@ function round_up($number, $precision = 2)
 				<div class="col-md-8 col-sm-12">
 					<h1>CJ Trowbridge</h1>
 					<p>
-						<i>Smart creative developer and award winning innovator, looking for business solutions to shared problems.</i>
+						<i>Smart creative developer and award winning innovator, building business solutions to shared problems.</i>
 					</p>
 					<hr>
 					<p>
