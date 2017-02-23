@@ -1,4 +1,3 @@
-# cjtrowbridge.com
-My personal website with resume and portfolio.
+ChristopherTrowbridge.com
 
-Now with Bootstrap 4!
+My personal website with resume and portfolio.
