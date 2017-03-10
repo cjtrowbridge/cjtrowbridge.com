@@ -10,12 +10,12 @@ function round_up($number, $precision = 2)
 ?><!DOCTYPE html>
 <html>
 <head>
-	<title>Christopher Trowbridge</title>
+	<title>CJ Trowbridge</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
-	<link rel="icon" type="image/jpg" href="/christopher.jpg">
+	<link rel="icon" type="image/jpg" href="/cj.jpg">
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -23,10 +23,10 @@ function round_up($number, $precision = 2)
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-4 col-sm-12">
-					<img src="/christopher.jpg" alt="Photo of Christopher Trowbridge">
+					<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
 				</div>
 				<div class="col-md-8 col-sm-12">
-					<h1>Christopher Trowbridge</h1>
+					<h1>CJ Trowbridge</h1>
 					<p>
 						<b>Software Engineer</b><br>
 						<i>Smart creative developer and award-winning innovator, building solutions to shared problems.</i>
