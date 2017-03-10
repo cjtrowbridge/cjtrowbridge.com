@@ -33,7 +33,7 @@ function round_up($number, $precision = 2)
 					</p>
 					<hr>
 					<p>
-						I have spent the last few years building a custom field-services targeted crm for a mobile tech support company in Sacramento.
+						I have spent the last few years building a custom field-services crm and intregrated marketing-automation platform for a mobile tech support company in Sacramento.
 					</p>
 					<p>
 						Check out my blog post on <a href="https://blog.cjtrowbridge.com/people-who-inspire-me/" target="_blank">people who inspire me</a>.
