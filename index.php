@@ -29,7 +29,7 @@ function round_up($number, $precision = 2)
 					<h1>CJ Trowbridge</h1>
 					<p>
 						<b>Software Engineer</b><br>
-						<i>Smart creative developer and award-winning innovator, building solutions to shared problems.</i>
+						<i>Smart-creative and award-winning innovator, building solutions to shared problems.</i>
 					</p>
 					<hr>
 					<p>
