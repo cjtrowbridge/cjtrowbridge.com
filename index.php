@@ -42,6 +42,9 @@ function round_up($number, $precision = 2)
 						This year was my first burn. The Man burns in <?php echo round_up((strtotime('SEP 02, 2017')-time())/(60*60*24),0); ?> days. Check out my <a href="https://blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 videos</a>!
 					</p>
 					<p>
+						With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+					</p>
+					<p>
 						I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon.
 					</p>
 					<p>
