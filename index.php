@@ -58,7 +58,7 @@ function round_up($number, $precision = 2)
 		Check out my 
 		<a href="https://github.com/cjtrowbridge/" target="_blank">github</a>,
 		<a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
-		<a href="//christophertrowbridge.com/resume/">resume</a>, 
+		<a href="//cjtrowbridge.com/resume/">resume</a>, 
 		and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
