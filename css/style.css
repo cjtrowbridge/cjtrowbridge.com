@@ -14,6 +14,12 @@ body{
 	padding-bottom: 5rem;
 	
 }
+li{
+	margin-bottom: .5rem;
+}
+ul{
+	margin-bottom: 1rem;
+}
 .footer{
 	position: relative;
 	margin-top: -4rem;
