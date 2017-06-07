@@ -43,7 +43,7 @@ function round_up($number, $precision = 2){
 					<h1>CJ Trowbridge</h1>
 					<p><b>Software Engineer</b><br><i>Smart-creative and award-winning innovator, building solutions to shared problems.</i></p>
 					<hr>
-					<p>I am currently doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.</p>
+					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.</p>
 					<p>I spent the last few years building a custom field-services crm and intregrated marketing-automation platform for a mobile tech support company in Sacramento.</p>
 					<p><?php Man(); ?> Check out my <a href="//blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 videos</a>!</p>
 					<p>I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon.</p>
