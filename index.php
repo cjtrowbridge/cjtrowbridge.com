@@ -2,9 +2,9 @@
 
 function Man(){
 	if(strtotime('SEP 02, 2017')>time()){
-		echo 'This year was my first burn. The Man burns in '.round_up((strtotime('SEP 02, 2017')-time())/(60*60*24),0).' days.';
+		echo '2016 was my first burn. The Man burns in '.round_up((strtotime('SEP 02, 2017')-time())/(60*60*24),0).' days.';
 	}else{
-		echo 'This year was my second burn.';
+		echo '2017 was my second burn.';
 	}
 }
 
