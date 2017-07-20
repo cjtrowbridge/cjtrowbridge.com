@@ -48,6 +48,7 @@ function round_up($number, $precision = 2){
 							<li><b><a href="https://securities.science/" target="_blank">Securities Science</a>:</b> Run SQL Queries agains historic stock data.</li>
 							<li><b><a href="https://rsialert.com/" target="_blank">RSI Alert</a>:</b> Be alerted when RSI-14 drops below 30.</li>
 							<li><b><a href="https://draupnr.io" target="_blank">Draupnr</a>:</b> Automatically generate static web sites based on feeds.</li>
+							<li><b><a href="https://cronput.com/" target="_blank">CronPUT</a>:</b> Manages cron jobs.</li>
 							<li><b><a href="https://condensr.io/" target="_blank">Condensr</a>:</b> Condense longform text.</li>
 							<li><b><a href="https://exoticweapons.io/" target="_blank">Exotic Weapons</a>:</b> A blog about building passive income sources.</li>
 							<li><b><a href="https://topstoryreview.com/" target="_blank">[Alpha] Top Story Review</a>:</b> An automatic parser and condenser of top news sources.</li>
