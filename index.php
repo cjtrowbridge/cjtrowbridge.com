@@ -43,7 +43,17 @@ function round_up($number, $precision = 2){
 					<h1>CJ Trowbridge</h1>
 					<p><b>Software Engineer</b><br><i>Smart-creative and award-winning innovator, building solutions to shared problems.</i></p>
 					<hr>
-					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.</p>
+					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
+						<ol>
+							<li><b><a href="https://securities.science/" target="_blank">Securities Science</a>:</b> Run SQL Queries agains historic stock data to test theories.</li>
+							<li><b><a href="https://rsialert.com/" target="_blank">RSI Alert</a>:</b> Be alerted when RSI-14 drops below 30.</li>
+							<li><b><a href="https://draupnr.io" target="_blank">Draupnr</a>:</b> Automatically generate static web sites based on feeds.</li>
+							<li><b><a href="https://condensr.io/" target="_blank">Condensr</a>:</b> Condenses longform text.</li>
+							<li><b><a href="https://exoticweapons.io/" target="_blank">Exotic Weapons</a>:</b> A blog about building passive income sources.</li>
+							<li><b><a href="https://topstoryreview.com/" target="_blank">[Alpha] Top Story Review</a>:</b> An automatic parser and condenser of top news sources.</li>
+							
+						</ol>
+					</p>
 					<p>I spent the last few years building a custom field-services crm and intregrated marketing-automation platform for a mobile tech support company in Sacramento.</p>
 					<p><?php Man(); ?> Check out my <a href="//blog.cjtrowbridge.com/2016/09/17/burning-man-2016-360-videos/" target="_blank">360 videos</a>!</p>
 					<p>I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon. With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
