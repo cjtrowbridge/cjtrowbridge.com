@@ -45,7 +45,7 @@ function round_up($number, $precision = 2){
 					<hr>
 					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
 						<ol>
-							<li><b><a href="https://securities.science/" target="_blank">Securities Science</a>:</b> Run SQL Queries agains historic stock data to test theories.</li>
+							<li><b><a href="https://securities.science/" target="_blank">Securities Science</a>:</b> Run SQL Queries agains historic stock data.</li>
 							<li><b><a href="https://rsialert.com/" target="_blank">RSI Alert</a>:</b> Be alerted when RSI-14 drops below 30.</li>
 							<li><b><a href="https://draupnr.io" target="_blank">Draupnr</a>:</b> Automatically generate static web sites based on feeds.</li>
 							<li><b><a href="https://condensr.io/" target="_blank">Condensr</a>:</b> Condenses longform text.</li>
