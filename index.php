@@ -45,7 +45,7 @@ function round_up($number, $precision = 2){
 							<li><b><a href="https://exoticweapons.io/" target="_blank">Exotic Weapons</a>:</b> A blog about building passive income sources.</li>
 							<li><b><a href="https://topstoryreview.com/" target="_blank">Top Story Review</a>: [RC-1]</b> An automatic parser and condenser of top news sources.</li>
 							<li><b><a href="javascript:void(0);">Wearing Today</a>: [ALPHA]</b> Track what you wear on each day so you don't look like a schmuck wearing the same thing twice to a class or date.</li>
-							<li><b><a href="javascript:void(0);">Little John</a>: [Pre-ALPHA]</b> A client providing buy and sell services for cryptocurrencies to allow simple and automatable trading. (Think Robinhood but for Crypto)</li>
+							<li><b><a href="javascript:void(0);">Little John</a>: [Pre-ALPHA]</b> A simple cryptocurrency trading app. (Think Robinhood but for Crypto)</li>
 							<li><b><a href="javascript:void(0);">Subscriptions as a Service</a>: [ALPHA]</b> Manage user subscriptions simply. We handle everything for you with simple tools.</li>
 							<li><b><a href="javascript:void(0);">Powerhouse CRM</a>: [ALPHA]</b> A powerful and free CRM platform.</li>
 							<li>?</li>
