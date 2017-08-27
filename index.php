@@ -47,7 +47,7 @@ function round_up($number, $precision = 2){
 							
 						</ol>
 					</p>
-					<p>I spent the last few years building a custom field-services crm and intregrated marketing-automation platform for a mobile tech support company in Sacramento. Read about this <a href="https://exoticweapons.io/data-analytics-marketing-automation-passive-income/" target="_blank">passive income</a> work on my new blog <a href="https://exoticweapons.io/" target="_blank">Exotic Weapons</a>.</p>
+					<p>I am also currently exploring exotic income sources at <a href="https://exoticweapons.io/" target="_blank">ExoticWeapons.io</a>.</p>
 					<p>I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon. With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
 				</div>
 			</div>
