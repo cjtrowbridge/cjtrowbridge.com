@@ -44,7 +44,7 @@ function round_up($number, $precision = 2){
 							<li><b><a href="https://condensr.io/" target="_blank">Condensr</a>:</b> Condense longform text.</li>
 							<li><b><a href="https://exoticweapons.io/" target="_blank">Exotic Weapons</a>:</b> A blog about building passive income sources.</li>
 							<li><b><a href="https://topstoryreview.com/" target="_blank">Top Story Review</a>: [RC-1]</b> An automatic parser and condenser of top news sources.</li>
-							<li><b><a href="javascript:void(0);">Captain's Log</a>: [ALPHA]</b> Your journal entries are automatically added to your calendar.</li>
+							<li><b><a href="javascript:void(0);">Captain's Log</a>: [ALPHA]</b> Journal entries are automatically added to your calendar.</li>
 							<li><b><a href="javascript:void(0);">Wearing Today</a>: [ALPHA]</b> Track what you wear on each day so you don't look like a schmuck wearing the same thing twice to a class or date.</li>
 							<li><b><a href="javascript:void(0);">Little John</a>: [Pre-ALPHA]</b> A simple cryptocurrency trading app. <br><i><a href="https://en.wikipedia.org/wiki/Little_John" target="_blank">"Little John is a legendary fellow outlaw of Robin Hood."</a></i></li>
 							<li><b><a href="javascript:void(0);">Smart Mailer</a>: [Pre-ALPHA]</b> A simple marketing automation platform which integrates with existing databases and automatically sends emails.</li>
