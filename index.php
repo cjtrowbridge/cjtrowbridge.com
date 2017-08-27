@@ -33,7 +33,7 @@ function round_up($number, $precision = 2){
 				</div>
 				<div class="col-md-8 col-sm-12">
 					<h1>CJ Trowbridge</h1>
-					<p><b>Software Engineer</b><br><i>Smart-creative and award-winning innovator, building technical solutions to business problems.</i></p>
+					<p><b>Software Engineer</b><br><i>Smart-creative and <a href="/resume">award-winning</a> innovator, building technical solutions to business problems.</i></p>
 					<hr>
 					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
 						<ol>
