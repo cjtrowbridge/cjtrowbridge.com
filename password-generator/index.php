@@ -15,7 +15,9 @@ if(isset($_REQUEST['generate'])){
 $Sizes=array(
   8,
   16,
-  32
+  32,
+  64,
+  128
 );
 ?><!DOCTYPE html>
 <html lang="en">
@@ -44,12 +46,7 @@ $Sizes=array(
 
   <div class="container" id="bodyContainer">
     <div class="col-xs=12=">
-      <p>
-        Size: 
-        <?php foreach($Sizes as $Size){ ?>
-        <button type="button" class="btn btn-secondary" onclick="GetPassword(<?php echo $Size; ?>);"><?php echo $Size; ?></button>
-        <?php } ?>
-      </p>
+      
       
       
       <h1>Password Generator</h1>
@@ -66,6 +63,13 @@ $Sizes=array(
         </il>
       </ul>
     
+    
+      <p>
+        Size: 
+        <?php foreach($Sizes as $Size){ ?>
+        <button type="button" class="btn btn-secondary" onclick="GetPassword(<?php echo $Size; ?>);"><?php echo $Size; ?></button>
+        <?php } ?>
+      </p>
     </div>
     
 
