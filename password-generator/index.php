@@ -40,11 +40,6 @@ $Sizes=array(
 
   <nav class="navbar navbar-fixed-top navbar-dark bg-primary container">
     <a class="navbar-brand" href="https://password-generator.cjtrowbridge.com">Password Generator</a>
-    <ul class="nav navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="https://github.com/cjtrowbridge/password-generator" target="_blank">Github</a>
-      </li>
-    </ul>
   </nav>
 
   <div class="container" id="bodyContainer">
@@ -55,14 +50,22 @@ $Sizes=array(
         <button type="button" class="btn btn-secondary" onclick="GetPassword(<?php echo $Size; ?>);"><?php echo $Size; ?></button>
         <?php } ?>
       </p>
-      <h4>Why Only 32 Bytes?</h4>
+      
+      
+      <h1>Password Generator</h1>
+
+      <p><i>This simple tool generates very strong passwords which are also very safe.</i></p>
+      <p>My main frustration with password generators has been filtering out all the special characters that particular sites dont like. I argue that there is really not any reason to use special characters, this tool uses just upper and lower-case letters and numbers. This still provides extremely high entropy.</p>
+
+      <p><b>Entropy generated with this tool;</b></p>
       <ul>
-          <li>8 characters of base <span title="26 letters in each case, plus ten numerical digits.">62</span> contain 2.1e18 possible combinations requiring 69 years of guessing at 100k/second in order to bruteforce.</li>
-          <li>16 characters contain 4.7e28 possible combinations requiring 1.5e16 years to bruteforce.</li>
-          <li>32 characters contain 2.2e57 possible combinations requiring 7.2e44 years to bruteforce.<br>
-            <i>This is about half of the remaining lifespan of the universe.</i>
-          </li>
+        <li>8 characters contain 2.1e18 possible combinations requiring 69 years of guessing at 100k/second in order to bruteforce.</li>
+        <li>16 characters contain 4.7e28 possible combinations requiring 1.5e16 years to bruteforce.</li>
+        <li>32 characters contain 2.2e57 possible combinations requiring 7.2e44 years to bruteforce.<br>
+          <i>This is about half of the remaining lifespan of the universe.</i>
+        </il>
       </ul>
+    
     </div>
     
 
