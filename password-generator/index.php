@@ -4,8 +4,8 @@ if(isset($_REQUEST['generate'])){
   $string = '';
   $Size=intval(intval($_REQUEST['generate']));
   
-  //Limit size to 32. The time it would take to bruteforce a password longer than 32 characters with 62 possible characters is about half the remaining lifespan of the universe, assuming 100,000 guesses per second.
-  if($Size>32){$Size=32;}
+  //Limit size to 128
+  if($Size>128){$Size=32;}
   
   for ($i = 0; $i < $Size; $i++) {
     $string .= $characters[mt_rand(0, strlen($characters) - 1)];
