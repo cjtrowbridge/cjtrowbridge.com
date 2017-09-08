@@ -15,10 +15,13 @@
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   
   <style>
+    h1{
+      padding-bottom: 1em;
+    }
     #sectionCurrent,
     #sectionLongTerm,
     #sectionPotential{
-      min-height: 800px;
+      min-height: 1080px;
     }
   </style>
   
