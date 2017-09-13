@@ -29,7 +29,7 @@ function round_up($number, $precision = 2){
 		<div class="row">
 			<div class="col-md-12">
 				<div class="col-md-4 col-sm-12">
-					<img src="/cj.jpg" alt="Photo of CJ Trowbridge">
+					<a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
 				</div>
 				<div class="col-md-8 col-sm-12">
 					<h1>CJ Trowbridge</h1>
