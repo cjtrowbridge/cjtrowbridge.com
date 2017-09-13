@@ -1,6 +1,6 @@
 <?php
 
-if(date('Y-m-d',filemtime())==date(Y-m-d)){
+if(date('Y-m-d',filemtime('cj.jpg'))==date(Y-m-d)){
   die('Too soon!');
 }
 
