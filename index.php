@@ -46,9 +46,9 @@ function round_up($number, $precision = 2){
 							<li><b><a href="https://topstoryreview.com/" target="_blank">Top Story Review</a>:</b> An automatic parser and condenser of top news sources.</li>
 							<li><b><a href="https://stardate.today" target="_blank">Stardate.Today</a>: [ALPHA]</b> Journal entries are automatically added to your calendar.</li>
 							<li><b><a href="javascript:void(0);">Wearing Today</a>: [ALPHA]</b> Track what you wear on each day so you don't look like a schmuck wearing the same thing twice to a class or date.</li>
-							<li><b><a href="javascript:void(0);">Little John</a>: [Pre-ALPHA]</b> A simple cryptocurrency trading app. <br><i><a href="https://en.wikipedia.org/wiki/Little_John" target="_blank">"Little John is a legendary fellow outlaw of Robin Hood."</a></i></li>
+							<li><b><a href="javascript:void(0);">Hyperlink Bridge</a>: [ALPHA]</b> A marketing implementation platform for teams.</li>
+							<li><b><a href="javascript:void(0);">Changeling</a>: [Pre-ALPHA]</b> A platform for changing content on websites based on conditions.</li>
 							<li><b><a href="javascript:void(0);">Smart Mailer</a>: [Pre-ALPHA]</b> A simple marketing automation platform which integrates with existing databases and automatically sends emails.</li>
-							<li><b><a href="javascript:void(0);">Subscriptions as a Service</a>: [ALPHA]</b> Manage user subscriptions simply. We handle everything for you with simple tools.</li>
 						</ol>
 					</p>
 					<hr>
