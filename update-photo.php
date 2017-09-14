@@ -1,5 +1,13 @@
 <?php
 
+/*
+
+  This script automatically updates my photo to whatever my facebook profile photo is.
+  
+  It is called at midnight each day by CronPUT.com
+
+*/
+
 if(date('Y-m-d',filemtime('cj.jpg'))==date('Y-m-d')){
   die('Too soon!');
 }
