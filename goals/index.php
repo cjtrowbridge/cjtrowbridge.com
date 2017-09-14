@@ -28,7 +28,7 @@
 </head>
 <body>
 
-<h1>Current Goals</h1>
+<h1><a style="float: right;" href="https://github.com/cjtrowbridge/cjtrowbridge.com/tree/master/goals" target="_blank">Github</a>Current Goals</h1>
 <div class="container-fluid" id="sectionCurrent">
   <?php include('current.html'); ?>
 </div>
