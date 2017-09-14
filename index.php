@@ -36,7 +36,8 @@ function round_up($number, $precision = 2){
 					<p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building technical solutions to business problems.</i></p>
 					<hr>
 					<p>I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.</p>
-					<p>I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon. With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
+					<p>I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon.</p>
+					<p>With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
 					<hr>
 					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
 						<ol>
