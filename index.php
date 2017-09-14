@@ -35,6 +35,9 @@ function round_up($number, $precision = 2){
 					<h1>CJ Trowbridge</h1>
 					<p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building technical solutions to business problems.</i></p>
 					<hr>
+					<p>I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.</p>
+					<p>I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon. With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
+					<hr>
 					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
 						<ol>
 							<li><b><a href="https://securities.science/" target="_blank">Securities Science</a>:</b> Run SQL Queries agains historic stock data.</li>
@@ -51,9 +54,7 @@ function round_up($number, $precision = 2){
 							<li><b><a href="javascript:void(0);">Smart Mailer</a>: [Pre-ALPHA]</b> A simple marketing automation platform which integrates with existing databases and automatically sends emails.</li>
 						</ol>
 					</p>
-					<hr>
-					<p>I am also currently exploring exotic income sources at <a href="https://exoticweapons.io/" target="_blank">ExoticWeapons.io</a>.</p>
-					<p>I was born a <a href="//trowbridge.house" target="_blank">tenth generation</a> American entrepreneur, in the mountains of Oregon. With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
+					
 				</div>
 			</div>
 		</div>
