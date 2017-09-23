@@ -10,7 +10,7 @@ function round_up($number, $precision = 2){
 ?><!DOCTYPE html>
 <html>
 <head>
-  <title>CJ Trowbridge</title>
+  <title>CJ <a href="https://trowbridge.house/" target="_blank">Trowbridge</a></title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -42,15 +42,11 @@ function round_up($number, $precision = 2){
         <hr>
         
         <div class="lifeEvent">
-          I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.
+          Full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.
         </div>
         
         <div class="lifeEvent">
-          I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon.
-        </div>
-        
-        <div class="lifeEvent">
-          With my life expectancy, I am <?php echo $LifePercentage; ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+          <?php echo $LifePercentage; ?> percent through my life expectancy, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
           <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
         </div>
         
