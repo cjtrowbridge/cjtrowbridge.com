@@ -1,5 +1,7 @@
 <?php
 
+$LifePercentage = round((time()-599373240) / (60*60*24*365*78)*100);
+
 function round_up($number, $precision = 2){
   $fig = (int) str_pad('1', $precision, '0');
   return (ceil($number * $fig) / $fig);
@@ -27,24 +29,25 @@ function round_up($number, $precision = 2){
 <body>
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
-        <div class="col-md-4 col-sm-12">
-          <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
-        </div>
-        <div class="col-md-8 col-sm-12">
-          <h1>CJ Trowbridge</h1>
-          <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
-          <hr>
-          <p>I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.</p>
-          <p>I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon.</p>
-          <p>With my life expectancy, I am <?php echo round((time()-599373240) / (60*60*24*365*78)*100); ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.</p>
-          <hr>
-          <p>
-            I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
-            <progress value="8" max="12"></progress>
-          </p>
+      <div class="col-md-3 col-sm-12">
+        <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
+      </div>
+      <div class="col-md-9 col-sm-12">
+        <h1>CJ Trowbridge</h1>
+        <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+        <hr>
+        <p>I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.</p>
+        <p>I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon.</p>
+        <p>
+          With my life expectancy, I am <?php echo $LifePercentage; ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+          <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
+        </p>
+        <hr>
+        <p>
+          I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
+          <progress value="8" max="12"></progress>
+        </p>
 
-        </div>
       </div>
     </div>
   </div>
