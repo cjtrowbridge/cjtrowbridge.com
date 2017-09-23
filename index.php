@@ -35,6 +35,7 @@ function round_up($number, $precision = 2){
       <div class="col-md-9 col-sm-12">
         <h1>CJ Trowbridge</h1>
         <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+        <hr>
         
         <div class="lifeEvent">
           I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.
