@@ -28,6 +28,6 @@ ul{
 	text-align: center;
 }
 progress{
-	display: block;
-	width: 100%;
+	float: right;
+	width: 128px;
 }
