@@ -42,7 +42,7 @@ function round_up($number, $precision = 2){
         <hr>
         
         <div class="lifeEvent">
-          Full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.
+          Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
         </div>
         
         <div class="lifeEvent">
