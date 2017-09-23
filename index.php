@@ -31,6 +31,10 @@ function round_up($number, $precision = 2){
     <div class="row">
       <div class="col-md-3 col-sm-12">
         <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
+        <!--
+          This photo automatically updates daily to my current Facebook photo!
+          https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/update-photo.php
+        -->
       </div>
       <div class="col-md-9 col-sm-12">
         <h1>CJ Trowbridge</h1>
