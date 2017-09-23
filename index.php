@@ -50,15 +50,15 @@ function round_up($number, $precision = 2){
         </div>
         
         <div class="lifeEvent">
+          I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
+          <progress value="8" max="12"></progress>
+        </div>
+        
+        <div class="lifeEvent">
           <?php echo $LifePercentage; ?>% through my life expectancy, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
           <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
         </div>
         
-        <div class="lifeEvent">
-          I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
-          <progress value="8" max="12"></progress>
-        </div>
-
       </div>
     </div>
   </div>
