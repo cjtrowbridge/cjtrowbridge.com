@@ -46,7 +46,7 @@ function round_up($number, $precision = 2){
         </div>
         
         <div class="lifeEvent">
-          I have been a professional DJ for <?php echo (date('Y')-2003); ?> years.
+          I have been a <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years.
         </div>
         
         <div class="lifeEvent">
