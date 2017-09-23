@@ -50,7 +50,7 @@ function round_up($number, $precision = 2){
         </div>
         
         <div class="lifeEvent">
-          <?php echo $LifePercentage; ?> percent through my life expectancy, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+          <?php echo $LifePercentage; ?>% through my life expectancy, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
           <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
         </div>
         
