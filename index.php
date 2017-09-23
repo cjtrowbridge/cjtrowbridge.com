@@ -41,7 +41,7 @@ function round_up($number, $precision = 2){
 					<hr>
 					<p>I am doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
 						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="8" aria-valuemin="0" aria-valuemax="12"></div>
+							<div class="progress-bar bg-info" role="progressbar" style="width: 67%" aria-valuenow="8" aria-valuemin="0" aria-valuemax="12"></div>
 						</div>
 					</p>
 					
