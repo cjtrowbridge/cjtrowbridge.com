@@ -27,3 +27,6 @@ ul{
 	clear:both;
 	text-align: center;
 }
+progress{
+	display: block;
+}
