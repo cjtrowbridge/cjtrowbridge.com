@@ -37,7 +37,9 @@ function round_up($number, $precision = 2){
         <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
         <hr>
         <p>I am a full time student at two different colleges working on getting a Bachelors in Computer Science and then a Masters in Business Administration.</p>
+        <hr>
         <p>I am a <a href="//trowbridge.house" target="_blank">tenth generation</a> American, and I grew up in the mountains of Southern Oregon.</p>
+        <hr>
         <p>
           With my life expectancy, I am <?php echo $LifePercentage; ?> percent through, and have <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
           <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
