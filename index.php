@@ -50,7 +50,7 @@ function round_up($number, $precision = 2){
         </div>
         
         <div class="lifeEvent">
-          Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>, building 12 startup products in 12 months.
+          Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
           <progress value="8" max="12"></progress>
         </div>
         
