@@ -29,4 +29,5 @@ ul{
 }
 progress{
 	display: block;
+	width: 100%;
 }
