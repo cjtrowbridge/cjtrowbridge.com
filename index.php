@@ -67,6 +67,7 @@ function round_up($number, $precision = 2){
     <a href="/goals" target="_blank">goals</a>,
     <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
     <a href="//cjtrowbridge.com/resume/">resume</a>, 
+    <a href="//trowbridge.house/">genealogy</a>, 
     and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
   </div>
 </body>
