@@ -20,6 +20,9 @@
     body{
       background-color: #c7c7c7;
     }
+    h1{
+      margin-bottom: 2rem;
+    }
   </style>
   
 </head>
