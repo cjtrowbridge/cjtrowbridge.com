@@ -42,9 +42,9 @@ $Now = strtotime(date('Y-m-01'));
 for ($i = 0 ; $i < 2; $i++){
   ?>
 <hr>
-<div class="container">
+<div class="container-fluid">
   <div class="row">
-    <div class="col-xs-12 col-md-4">
+    <div class="col-xs-12">
       <h1><?php echo date('F Y',$Now); ?></h1>
     </div>
   </div>
