@@ -54,10 +54,12 @@ for ($i = 0 ; $i < 2; $i++){
             <h1><?php echo date('F Y',$Now); ?></h1>
             <?php
               $ThisFile = date('Y-m',$Now).'.html';
-              if(!(file_exists($ThisFile))){
-                copy('new.html',$ThisFile);
+              if(file_exists($ThisFile)){
+                include($ThisFile);
+              }else{
+                echo '<p><i>No goals set yet.</i></p>';
               }
-              include($ThisFile);
+              
             ?>
             
           </div><!--End card-text-->
