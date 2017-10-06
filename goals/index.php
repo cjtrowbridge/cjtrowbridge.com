@@ -18,7 +18,7 @@
   
   <style>
     body{
-      background-color: #c7c7c7;
+      background-color: #F8F8F8;
     }
     h1{
       margin-bottom: 2rem;
