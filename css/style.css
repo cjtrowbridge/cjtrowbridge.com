@@ -20,6 +20,9 @@ progress{
 .lifeEvent{
   padding: 0 1em 2em 1em;
 }
+.footer{
+  text-align: center;
+}
 
 
 /* deprecating floating footer
