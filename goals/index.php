@@ -28,7 +28,8 @@
   
 </head>
 <body>
-
+  <h1>Goal Timeline</h1>
+  
 <?php
 
 $Now = strtotime(date('Y-m-01'));
