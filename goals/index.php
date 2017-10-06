@@ -38,7 +38,17 @@
 $Now = strtotime(date('Y-m-01'));
 
 for ($i = 0 ; $i < 2; $i++){
-  echo "\n<hr>\n<h1>".date('Y-m',$Now)."</h1>\n";
+  ?>
+<hr>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <h1><?php echo date('Y-m',$Now); ?></h1>
+    </div>
+  </div>
+</div>
+  
+  <?php
   $ThisFile = date('Y-m',$Now).'.html';
   if(!(file_exists($ThisFile))){
     copy('new.html',$ThisFile);
