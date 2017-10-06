@@ -51,22 +51,20 @@ for ($i = 0 ; $i < 2; $i++){
       <div class="card">
         <div class="card-block">
           <div class="card-text">
-            <h1><?php echo date('F Y',$Now); ?><br></h1>
-          
-  
-  <?php
-  $ThisFile = date('Y-m',$Now).'.html';
-  if(!(file_exists($ThisFile))){
-    copy('new.html',$ThisFile);
-  }
-  include($ThisFile);
-  
-  ?>
             
-            </div><!--End card-text-->
-          </div><!--End card-block-->
-        </div><!--End card-->
-      </div><!--End col-xs-12-->
+            <h1><?php echo date('F Y',$Now); ?></h1>
+            <?php
+              $ThisFile = date('Y-m',$Now).'.html';
+              if(!(file_exists($ThisFile))){
+                copy('new.html',$ThisFile);
+              }
+              include($ThisFile);
+            ?>
+            
+          </div><!--End card-text-->
+        </div><!--End card-block-->
+      </div><!--End card-->
+    </div><!--End col-xs-12-->
   </div><!--End Row-->
 </div><!--End Container-->
 
