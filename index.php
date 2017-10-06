@@ -1,5 +1,6 @@
 <?php
 
+$YearsLeft = round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1);
 $LifePercentage = round((time()-599373240) / (60*60*24*365*78)*100);
 
 function round_up($number, $precision = 2){
@@ -42,7 +43,7 @@ function round_up($number, $precision = 2){
                 <div class="col-md-3 col-sm-12">
                   <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
                   <!--
-                    This photo automatically updates daily to my current Facebook photo!
+                    This photo automatically updates daily to my current Facebook photo! It then becomes both the favicon and image on the page.
                     https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/update-photo.php
                   -->
                 </div><!--End col-md-3 col-sm-12-->
@@ -62,7 +63,7 @@ function round_up($number, $precision = 2){
                     <progress value="8" max="12"></progress>
                   </div>
                   <div class="lifeEvent">
-                    My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+                    My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left.
                     <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
                   </div>
                 </div><!--End col-md-9 col-sm-12-->
@@ -77,11 +78,12 @@ function round_up($number, $precision = 2){
   </div><!--End Row-->
 </div><!--End Container-->
   
-  <div class="text-muted text-xs-center">
-    <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
-    <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
-    <a href="//cjtrowbridge.com/resume/">resume</a>, 
-    and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
-  </div>
+<div class="text-muted text-xs-center">
+  <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
+  <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
+  <a href="//cjtrowbridge.com/resume/">resume</a>, 
+  and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
+</div>
+  
 </body>
 </html>
