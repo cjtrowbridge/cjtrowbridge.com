@@ -3,28 +3,15 @@ img{
   max-width: 100%;
   border-radius: 1em;
 }
-html, body{
-  height: 100%;
-}
-body{
-  padding-top: 2em;
-}
-.container{
-  min-height: 100%;
-  padding-bottom: 5rem;
+ body{
+  background-color: #F8F8F8;
+  padding-top: 2rem;
 }
 li{
   margin-bottom: .5rem;
 }
 ul{
   margin-bottom: 1rem;
-}
-.footer{
-  position: relative;
-  margin-top: -4rem;
-  height: 2rem;
-  clear:both;
-  text-align: center;
 }
 progress{
   float: right;
@@ -33,3 +20,22 @@ progress{
 .lifeEvent{
   padding: 0 1em 2em 1em;
 }
+
+
+/* deprecating floating footer
+
+html, body{
+  height: 100%;
+}
+.container{
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+.footer{
+  position: relative;
+  margin-top: -4rem;
+  height: 2rem;
+  clear:both;
+  text-align: center;
+}
+*/
