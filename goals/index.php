@@ -28,8 +28,15 @@
   
 </head>
 <body>
-  <h1>Goal Timeline</h1>
   
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h1>Goal Timeline</h1>
+    </div><!--End col-xs-12-->
+  </div><!--End Row-->
+</div><!--End Container-->
+
 <?php
 
 $Now = strtotime(date('Y-m-01'));
