@@ -41,7 +41,7 @@
 $Now = strtotime(date('Y-m-01'));
 
 for ($i = 0 ; $i < 12; $i++){
-  echo "\n<h1>".date('Y-m')."</h1>\n";
+  echo "\n<h1>".date('Y-m',$Now)."</h1>\n";
   
   $Now = strtotime('next month',$Now);
 }
