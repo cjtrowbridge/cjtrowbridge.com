@@ -16,12 +16,6 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   
-  <style>
-    hr{
-      margin: 4rem 0 4rem 0;
-    }
-  </style>
-  
 </head>
 <body>
 
@@ -41,7 +35,7 @@ $Now = strtotime(date('Y-m-01'));
 
 for ($i = 0 ; $i < 2; $i++){
   ?>
-<hr>
+  
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12">
