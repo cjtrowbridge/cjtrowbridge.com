@@ -28,16 +28,6 @@
 </head>
 <body>
 
-<h1>Long-Term Goals</h1>
-<div class="container-fluid" id="sectionLongTerm">
-  <?php include('long-term.html'); ?>
-</div>
-<hr>
-
-<h1>Potential Goals</h1>
-<div class="container-fluid" id="sectionPotential">
-  <?php include('potential.html'); ?>
-</div>
 <?php
 
 $Now = strtotime(date('Y-m-01'));
@@ -72,7 +62,23 @@ for ($i = 0 ; $i < 2; $i++){
   $Now = strtotime('next month',$Now);
 }
 
-
 ?>
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            
+            <h1>Long-Term Goals</h1>
+            <?php include('long-term.html'); ?>
+            
+          </div><!--End card-text-->
+        </div><!--End card-block-->
+      </div><!--End card-->
+    </div><!--End col-xs-12-->
+  </div><!--End Row-->
+</div><!--End Container-->
 </body>
 </html>
