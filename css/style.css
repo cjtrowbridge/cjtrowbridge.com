@@ -8,7 +8,7 @@ img{
   padding-top: 2rem;
 }
 progress{
-  display: block;
+  width: 100%;
 }
 .lifeEvent{
   padding: 0 1em 2em 1em;
