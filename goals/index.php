@@ -51,7 +51,7 @@ for ($i = 0 ; $i < 6; $i++){
         <div class="card-block">
           <div class="card-text">
             
-            <h1><?php echo date('F Y',$Now); ?></h1>
+            <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/goals/<?php echo date('Y-m',$Now); ?>.html" style="color: #000;"><?php echo date('F Y',$Now); ?></a></h1>
             <?php
               $ThisFile = date('Y-m',$Now).'.html';
               if(file_exists($ThisFile)){
