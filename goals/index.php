@@ -45,7 +45,7 @@ $Now = strtotime(date('Y-m-01'));
 for ($i = 0 ; $i < 2; $i++){
   ?>
   
-<div class="container-fluid">
+<div class="container">
   <div class="row">
     <div class="col-xs-12">
       <div class="card">
