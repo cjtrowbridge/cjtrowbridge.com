@@ -77,7 +77,7 @@ function round_up($number, $precision = 2){
   </div><!--End Row-->
 </div><!--End Container-->
   
-  <div class="footer">
+  <div class="text-muted text-center">
     <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
     <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
     <a href="//cjtrowbridge.com/resume/">resume</a>, 
