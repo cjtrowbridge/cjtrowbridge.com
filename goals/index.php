@@ -82,7 +82,7 @@ for ($i = 0 ; $i < 6; $i++){
         <div class="card-block">
           <div class="card-text">
             
-            <h1>Long-Term Goals</h1>
+            <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/goals/long-term.html" style="color: #000;">Long-Term Goals</a></h1>
             <?php include('long-term.html'); ?>
             
           </div><!--End card-text-->
