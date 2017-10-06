@@ -19,6 +19,7 @@
   <style>
     body{
       background-color: #F8F8F8;
+      padding-top: 2rem;
     }
     h1{
       margin-bottom: 2rem;
