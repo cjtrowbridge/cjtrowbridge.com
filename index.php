@@ -55,16 +55,24 @@ function round_up($number, $precision = 2){
                   <div class="lifeEvent">
                     Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
                   </div>
-                  <div class="lifeEvent">
-                    Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
-                    <progress value="8" max="12"></progress>
+                  <div class="lifeEvent row">
+                    <div class="col-xs-12 col-md-8">
+                      Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                      <progress value="8" max="12"></progress>
+                    </div>
                   </div>
                   <div class="lifeEvent">
                     A <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years. Currently working mostly on professional fundraising for worthy causes. 
                   </div>
-                  <div class="lifeEvent">
-                    My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left.
-                    <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
+                  <div class="lifeEvent row">
+                    <div class="col-xs-12 col-md-8">
+                      My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left.
+                    </div>
+                    <div class="col-xs-12 col-md-4">
+                      <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
+                    </div>
                   </div>
                 </div><!--End col-md-9 col-sm-12-->
                 
