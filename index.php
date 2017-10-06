@@ -56,11 +56,11 @@ function round_up($number, $precision = 2){
                     Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
                   </div>
                   <div class="lifeEvent">
-                    A <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years.
-                  </div>
-                  <div class="lifeEvent">
                     Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
                     <progress value="8" max="12"></progress>
+                  </div>
+                  <div class="lifeEvent">
+                    A <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years. Currently working mostly on professional fundraising for worthy causes. 
                   </div>
                   <div class="lifeEvent">
                     My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left.
