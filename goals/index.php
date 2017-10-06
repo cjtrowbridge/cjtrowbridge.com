@@ -44,7 +44,7 @@ for ($i = 0 ; $i < 12; $i++){
   echo "\n<h1>".date('Y-m',$Now)."</h1>\n";
   $ThisFile = date('Y-m',$Now).'.html';
   if(!(file_exists($ThisFile))){
-    cp('new.html',$ThisFile);
+    copy('new.html',$ThisFile);
   }
   include($ThisFile);
   $Now = strtotime('next month',$Now);
