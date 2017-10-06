@@ -27,47 +27,60 @@ function round_up($number, $precision = 2){
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-3 col-sm-12">
-        <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
-        <!--
-          This photo automatically updates daily to my current Facebook photo!
-          https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/update-photo.php
-        -->
-      </div>
-      <div class="col-md-9 col-sm-12">
-        <h1>CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
-        <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
-        <hr>
-        
-        <div class="lifeEvent">
-          Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
-        </div>
-        
-        <div class="lifeEvent">
-          A <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years.
-        </div>
-        
-        <div class="lifeEvent">
-          Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
-          <progress value="8" max="12"></progress>
-        </div>
-        
-        <div class="lifeEvent">
-          My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
-          <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="col-md-12 footer">
+  
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+
+  
+            <div class="container">
+              <div class="row">
+                
+                <div class="col-md-3 col-sm-12">
+                  <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
+                  <!--
+                    This photo automatically updates daily to my current Facebook photo!
+                    https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/update-photo.php
+                  -->
+                </div><!--End col-md-3 col-sm-12-->
+                
+                <div class="col-md-9 col-sm-12">
+                  <h1>CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
+                  <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+                  <hr>
+                  <div class="lifeEvent">
+                    Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
+                  </div>
+                  <div class="lifeEvent">
+                    A <a href="https://dj-cj.com" target="_blank">professional DJ</a> for <?php echo (date('Y')-2003); ?> years.
+                  </div>
+                  <div class="lifeEvent">
+                    Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
+                    <progress value="8" max="12"></progress>
+                  </div>
+                  <div class="lifeEvent">
+                    My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1); ?> years left.
+                    <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
+                  </div>
+                </div><!--End col-md-9 col-sm-12-->
+                
+              </div><!--End row-->
+            </div><!--End container-->
+            
+          </div><!--End card-text-->
+        </div><!--End card-block-->
+      </div><!--End card-->
+    </div><!--End col-xs-12-->
+  </div><!--End Row-->
+</div><!--End Container-->
+  
+  <div class="footer">
     <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
-    <a href="/goals" target="_blank">goals</a>,
     <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
     <a href="//cjtrowbridge.com/resume/">resume</a>, 
-    <a href="//trowbridge.house/">genealogy</a>, 
     and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
   </div>
 </body>
