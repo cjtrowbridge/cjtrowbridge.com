@@ -7,12 +7,6 @@ img{
   background-color: #F8F8F8;
   padding-top: 2rem;
 }
-li{
-  margin-bottom: .5rem;
-}
-ul{
-  margin-bottom: 1rem;
-}
 progress{
   float: right;
   width: 128px;
@@ -20,25 +14,3 @@ progress{
 .lifeEvent{
   padding: 0 1em 2em 1em;
 }
-.footer{
-  text-align: center;
-}
-
-
-/* deprecating floating footer
-
-html, body{
-  height: 100%;
-}
-.container{
-  min-height: 100%;
-  padding-bottom: 5rem;
-}
-.footer{
-  position: relative;
-  margin-top: -4rem;
-  height: 2rem;
-  clear:both;
-  text-align: center;
-}
-*/
