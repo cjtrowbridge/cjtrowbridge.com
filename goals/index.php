@@ -54,11 +54,12 @@ for ($i = 0 ; $i < 2; $i++){
   
   ?>
             
-            </div>
-        </div>
-      </div>
-  </div>
-</div>
+            </div><!--End card-text-->
+          </div><!--End card-block-->
+        </div><!--End card-->
+      </div><!--End col-xs-12-->
+  </div><!--End Row-->
+</div><!--End Container-->
 
   <?php
   $Now = strtotime('next month',$Now);
