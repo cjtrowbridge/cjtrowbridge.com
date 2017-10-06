@@ -16,6 +16,12 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
   
+  <stlye>
+    body{
+      background-color: #c7c7c7;
+    }
+  </style>
+  
 </head>
 <body>
 
