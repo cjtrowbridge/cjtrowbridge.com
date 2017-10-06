@@ -45,10 +45,11 @@ for ($i = 0 ; $i < 2; $i++){
 <div class="container-fluid">
   <div class="row">
     <div class="col-xs-12">
-      <h1><?php echo date('F Y',$Now); ?></h1>
-    </div>
-  </div>
-</div>
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <h1><?php echo date('F Y',$Now); ?></h1>
+          
   
   <?php
   $ThisFile = date('Y-m',$Now).'.html';
@@ -56,6 +57,16 @@ for ($i = 0 ; $i < 2; $i++){
     copy('new.html',$ThisFile);
   }
   include($ThisFile);
+  
+  ?>
+            
+            </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <?php
   $Now = strtotime('next month',$Now);
 }
 
