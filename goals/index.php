@@ -43,7 +43,7 @@ for ($i = 0 ; $i < 2; $i++){
 <div class="container">
   <div class="row">
     <div class="col-xs-12 col-md-4">
-      <h1><?php echo date('F, Y',$Now); ?></h1>
+      <h1><?php echo date('F Y',$Now); ?></h1>
     </div>
   </div>
 </div>
