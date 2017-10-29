@@ -53,12 +53,18 @@ function round_up($number, $precision = 2){
                   <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
                   <hr>
                   <div class="lifeEvent">
-                    Full time student at two different colleges working toward;
+                    Full time student at two different colleges working toward:
                     <ul>
                       <li>Associate's in Social Justice</li>
                       <li>Bachelor's in Computer Science</li>
                       <li>Master's in Business Administration</li>
                     </ul>
+                  </div>
+                  <div class="lifeEvent row">
+                    I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes. If you are part of a worthy cause, please reach out, I'd love to pitch in!
+                  </div>
+                  <div class="lifeEvent row">
+                    I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both. 
                   </div>
                   <div class="lifeEvent row">
                     <div class="col-xs-12 col-md-10">
