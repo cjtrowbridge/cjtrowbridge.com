@@ -52,7 +52,7 @@ function round_up($number, $precision = 2){
                   <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
                   <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
                   <hr>
-                  Full time student at two different colleges working toward:
+                  <b>Current Academic Goals:</b>
                   <p>
                     <ul>
                       <li>Associate's in Social Justice</li>
@@ -62,6 +62,7 @@ function round_up($number, $precision = 2){
                   </p>
                 </div>
                 <div class="col-xs-12">
+                  <b>Current Projects:</b>
                   <p>I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
                   <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
                   <div class="row no-gutters">
