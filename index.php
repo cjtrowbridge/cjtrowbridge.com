@@ -57,7 +57,7 @@ function round_up($number, $precision = 2){
                     <ul>
                       <li>Associate's in Social Justice</li>
                       <li>Bachelor's in Computer Science</li>
-                      <li>NMaster's in Business Administration</li>
+                      <li>Master's in Business Administration</li>
                     </ul>
                   </div>
                   <div class="lifeEvent row">
