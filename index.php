@@ -52,32 +52,32 @@ function round_up($number, $precision = 2){
                   <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
                   <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
                   <hr>
-                  <div class="lifeEvent">
-                    Full time student at two different colleges working toward:
+                  Full time student at two different colleges working toward:
+                  <p>
                     <ul>
                       <li>Associate's in Social Justice</li>
                       <li>Bachelor's in Computer Science</li>
                       <li>Master's in Business Administration</li>
                     </ul>
-                  </div>
+                  </p>
                 </div>
                 <div class="col-xs-12">
                   <p>I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
                   <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
                   <div class="row no-gutters">
                     <div class="col-xs-12 col-md-10">
-                      Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
+                      <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
                     </div>
                     <div class="col-xs-12 col-md-2">
-                      <progress value="8" max="12"></progress>
+                      <p><progress value="8" max="12"></progress></p>
                     </div>
-                  </div><br>
+                  </div>
                   <div class="row no-gutters">
                     <div class="col-xs-12 col-md-10">
-                      My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.
+                      <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
                     </div>
                     <div class="col-xs-12 col-md-2">
-                      <progress value="<?php echo $LifePercentage; ?>" max="78"></progress>
+                      <p><progress value="<?php echo $LifePercentage; ?>" max="78"></progress></p>
                     </div>
                   </div>
                 </div><!--End col-md-9 col-sm-12-->
