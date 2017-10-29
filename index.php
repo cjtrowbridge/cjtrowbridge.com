@@ -60,6 +60,8 @@ function round_up($number, $precision = 2){
                       <li>Master's in Business Administration</li>
                     </ul>
                   </div>
+                </div>
+                <div class="col-xs-12">
                   <div class="lifeEvent">
                     I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.
                   </div>
