@@ -62,21 +62,17 @@ function round_up($number, $precision = 2){
                   </div>
                 </div>
                 <div class="col-xs-12">
-                  <div class="lifeEvent">
-                    I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.
-                  </div>
-                  <div class="lifeEvent">
-                    I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both. 
-                  </div>
-                  <div class="lifeEvent row no-gutters">
+                  <p>I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
+                  <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
+                  <div class="row no-gutters">
                     <div class="col-xs-12 col-md-10">
                       Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.
                     </div>
                     <div class="col-xs-12 col-md-2">
                       <progress value="8" max="12"></progress>
                     </div>
-                  </div>
-                  <div class="lifeEvent row no-gutters">
+                  </div><br>
+                  <div class="row no-gutters">
                     <div class="col-xs-12 col-md-10">
                       My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.
                     </div>
