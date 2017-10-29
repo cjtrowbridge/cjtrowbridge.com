@@ -60,10 +60,11 @@ function round_up($number, $precision = 2){
                       <li>Master's in Business Administration</li>
                     </ul>
                   </div>
-                  <div class="lifeEvent row">
+                  <div class="lifeEvent">
+                    <div class="col-xs-12">
                     I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes. If you are part of a worthy cause, please reach out, I'd love to pitch in!
                   </div>
-                  <div class="lifeEvent row">
+                  <div class="lifeEvent">
                     I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both. 
                   </div>
                   <div class="lifeEvent row no-gutters">
