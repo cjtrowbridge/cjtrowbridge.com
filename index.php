@@ -53,7 +53,12 @@ function round_up($number, $precision = 2){
                   <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
                   <hr>
                   <div class="lifeEvent">
-                    Full time student at two different colleges working on a Bachelors in Computer Science and then a Masters in Business Administration.
+                    Full time student at two different colleges working toward;
+                    <ul>
+                      <li>Associate's in Social Justice</li>
+                      <li>Bachelor's in Computer Science</li>
+                      <li>NMaster's in Business Administration</li>
+                    </ul>
                   </div>
                   <div class="lifeEvent row">
                     <div class="col-xs-12 col-md-10">
