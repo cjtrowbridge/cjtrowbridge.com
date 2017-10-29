@@ -60,8 +60,7 @@ function round_up($number, $precision = 2){
                       <li>Master's in Business Administration</li>
                     </ul>
                   </p>
-                </div>
-                <div class="col-xs-12">
+                
                   <p><b>Current Projects:</b></p>
                   
                   <div class="row no-gutters">
