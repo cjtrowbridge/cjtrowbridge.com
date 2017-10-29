@@ -62,7 +62,7 @@ function round_up($number, $precision = 2){
                   </p>
                 </div>
                 <div class="col-xs-12">
-                  <b>Current Projects:</b>
+                  <p><b>Current Projects:</b></p>
                   <p>I am expanding my <?php echo date('Y')-2013; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
                   <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
                   <div class="row no-gutters">
