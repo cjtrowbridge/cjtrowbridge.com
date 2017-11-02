@@ -37,6 +37,7 @@ function round_up($number, $precision = 2){
     </div>
     
     <div class="col-md-10 col-sm-12"> 
+      <br>
       <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
       <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
     </div>
