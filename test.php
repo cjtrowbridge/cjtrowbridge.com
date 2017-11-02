@@ -71,7 +71,7 @@ function round_up($number, $precision = 2){
                 <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
               </div>
               <div class="col-xs-12 col-md-2">
-                <p><progress value="<?php echo $LifePercentage; ?>" max="78"></progress></p>
+                <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
               </div>
             </div>
 
