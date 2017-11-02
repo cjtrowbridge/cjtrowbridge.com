@@ -101,7 +101,8 @@ function round_up($number, $precision = 2){
               <div class="row">
                 
                 <div class="col-xs-12 col-md-8">
-                  <b>ACLU:</b> a nonprofit whose mission is, "to defend and preserve the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States."
+                  <b>ACLU:</b> a nonprofit whose mission is, 
+                  <div class="blockquote">"To defend and preserve the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States."</div>
                 </div>
                 <div class="col-xs-12 col-md-4">
                   <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
@@ -110,7 +111,8 @@ function round_up($number, $precision = 2){
                 <div class="col-xs-12"><br></div>
                 
                 <div class="col-xs-12 col-md-8">
-                  <b>Planetary Society:</b> a nonprofit founded by Carl Sagan and led by Bill Nye whose mission is, "To inspire the people of Earth to explore other worlds, understand our own, and seek life elsewhere."
+                  <b>Planetary Society:</b> a nonprofit founded by Carl Sagan and led by Bill Nye whose mission is, 
+                  <div class="blockquote">"To inspire the people of Earth to explore other worlds, understand our own, and seek life elsewhere."</div>
                 </div>
                 <div class="col-xs-12 col-md-4">
                   <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
