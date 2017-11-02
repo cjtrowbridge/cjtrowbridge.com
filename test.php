@@ -41,9 +41,10 @@ function round_up($number, $precision = 2){
       <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
     </div>
     
-    <br><br>
+    
     
     <div class="col-sm-12">
+      <br>
       
       <div class="card">
         <div class="card-block">
