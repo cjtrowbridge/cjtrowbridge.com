@@ -99,18 +99,23 @@ function round_up($number, $precision = 2){
             
             <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
               <div class="row">
+                
                 <div class="col-xs-12 col-md-6">
                   ACLU 
                 </div>
                 <div class="col-xs-12 col-md-6">
                   <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
                 </div>
+                
+                <div class="col-xs-12"><br></div>
+                
                 <div class="col-xs-12 col-md-6">
                   Planetary Society
                 </div>
                 <div class="col-xs-12 col-md-6">
                   <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
                 </div>
+                
               </div>
             </p>
             
