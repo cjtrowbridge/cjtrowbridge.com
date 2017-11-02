@@ -97,7 +97,7 @@ function round_up($number, $precision = 2){
             
             <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
             
-            <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
+            <p><b>Here Are Some Worthy Causes To Which I Subscribe and Donate Monthly:</b>
               <div class="row">
                 
                 <div class="col-xs-12 col-md-8">
