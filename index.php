@@ -83,24 +83,20 @@ function round_up($number, $precision = 2){
                   <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
                   
                   <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
-                    <ul>
-                      <li>
-                        <div class="col-xs-12 col-md-10">
-                          ACLU 
-                        </div>
-                        <div class="col-xs-12 col-md-2">
-                          <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="col-xs-12 col-md-10">
-                          Planetary Society
-                        </div>
-                        <div class="col-xs-12 col-md-2">
-                          <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
-                        </div>
-                      </li>
-                    </ul> 
+                    <div class="row">
+                      <div class="col-xs-12 col-md-6">
+                        ACLU 
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        Planetary Society
+                      </div>
+                      <div class="col-xs-12 col-md-6">
+                        <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
+                      </div>
+                    </div>
                   </p>
                   
                 </div><!--End col-md-9 col-sm-12-->
