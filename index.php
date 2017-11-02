@@ -70,7 +70,6 @@ function round_up($number, $precision = 2){
                     </div>
                   </div>
                   
-                  <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
                   <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
                   <div class="row no-gutters">
                     <div class="col-xs-12 col-md-10">
@@ -80,6 +79,16 @@ function round_up($number, $precision = 2){
                       <p><progress value="8" max="12"></progress></p>
                     </div>
                   </div>
+                
+                  <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
+                  
+                  <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
+                    <ul>
+                      <li>ACLU</li>
+                      <li>Planetary Society</li>
+                    </ul> 
+                  </p>
+                  
                 </div><!--End col-md-9 col-sm-12-->
                 
               </div><!--End row-->
