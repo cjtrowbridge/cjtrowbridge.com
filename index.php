@@ -31,82 +31,100 @@ function round_up($number, $precision = 2){
   
 <div class="container">
   <div class="row">
-    <div class="col-xs-12">
+    
+    <div class="col-md-10 col-sm-12"> 
+      <br>
+      <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
+      <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+    </div>
+                
+    <div class="col-md-2 col-sm-12">
+      <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="CJ Trowbridge"></a>
+    </div>
+    
+    
+    <div class="col-sm-12">
+      <br>
+      
       <div class="card">
         <div class="card-block">
           <div class="card-text">
+            <h4>Current Academic Goals</h4>
+            <p>
+              <ul>
+                <li>Associate's in Social Justice</li>
+                <li>Bachelor's in Computer Science</li>
+                <li>Master's in Business Administration</li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div><!--End Academics Card-->
+      
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <h4>Current Projects</h4>
+            
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-md-10">
+                <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
+              </div>
+            </div>
 
-  
-            <div class="container">
+            <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-md-10">
+                <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <p><progress value="8" max="12"></progress></p>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div><!--End Current Projects Card-->
+      
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            
+            <h4>Social Justice</h4>
+            
+            <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
+            
+            <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
               <div class="row">
                 
-                <div class="col-md-3 col-sm-12">
-                  <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="Photo of CJ Trowbridge"></a>
-                  <!--
-                    This photo automatically updates daily to my current Facebook photo! It then becomes both the favicon and image on the page.
-                    https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/update-photo.php
-                  -->
-                </div><!--End col-md-3 col-sm-12-->
+                <div class="col-xs-12 col-md-8">
+                  <b>ACLU:</b> a nonprofit whose mission is, 
+                  <div class="blockquote">"To defend and preserve the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States."</div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
+                </div>
                 
-                <div class="col-md-9 col-sm-12">
-                  <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
-                  <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
-                  <hr>
-                  Current Academic Goals:
-                  <p>
-                    <ul>
-                      <li>Associate's in Social Justice</li>
-                      <li>Bachelor's in Computer Science</li>
-                      <li>Master's in Business Administration</li>
-                    </ul>
-                  </p>
-                  
-                  <div class="row no-gutters">
-                    <div class="col-xs-12 col-md-10">
-                      <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
-                    </div>
-                    <div class="col-xs-12 col-md-2">
-                      <p><progress value="<?php echo $LifePercentage; ?>" max="78"></progress></p>
-                    </div>
-                  </div>
-                  
-                  <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
-                  <div class="row no-gutters">
-                    <div class="col-xs-12 col-md-10">
-                      <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
-                    </div>
-                    <div class="col-xs-12 col-md-2">
-                      <p><progress value="8" max="12"></progress></p>
-                    </div>
-                  </div>
+                <div class="col-xs-12"><br></div>
                 
-                  <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
-                  
-                  <p><b>Worthy Causes To Which I Subscribe and Donate Monthly:</b>
-                    <div class="row">
-                      <div class="col-xs-12 col-md-6">
-                        ACLU 
-                      </div>
-                      <div class="col-xs-12 col-md-6">
-                        <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank">Pitch In a Few Bucks a Month</a>
-                      </div>
-                      <div class="col-xs-12 col-md-6">
-                        Planetary Society
-                      </div>
-                      <div class="col-xs-12 col-md-6">
-                        <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
-                      </div>
-                    </div>
-                  </p>
-                  
-                </div><!--End col-md-9 col-sm-12-->
+                <div class="col-xs-12 col-md-8">
+                  <b>Planetary Society:</b> a nonprofit founded by Carl Sagan and led by Bill Nye whose mission is, 
+                  <div class="blockquote">"To inspire the people of Earth to explore other worlds, understand our own, and seek life elsewhere."</div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                  <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank">Pitch In a Few Bucks a Month</a>
+                </div>
                 
-              </div><!--End row-->
-            </div><!--End container-->
+              </div>
+            </p>
             
-          </div><!--End card-text-->
-        </div><!--End card-block-->
-      </div><!--End card-->
+          </div>
+        </div>
+      </div><!--End Social Justice Card-->
+      
     </div><!--End col-xs-12-->
   </div><!--End Row-->
 </div><!--End Container-->
