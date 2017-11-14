@@ -52,7 +52,6 @@ function round_up($number, $precision = 2){
             <h4>Current Academic Goals</h4>
             <p>
               <ul>
-                <li>Associate's in Social Justice</li>
                 <li>Bachelor's in Computer Science</li>
                 <li>Master's in Business Administration</li>
               </ul>
