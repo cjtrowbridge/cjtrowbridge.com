@@ -47,6 +47,21 @@ for ($i = 0 ; $i < 6; $i++){
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
+      
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            <?php
+              $HTML = file_get_contents('https://blog.cjtrowbridge.com/goals/');
+              $HTML = stristr('<main',$HTML);
+              $EndPos = strpos($HTML,'</main>');
+              $HTML = substr($HTML,0,$EndPos);
+              echo $HTML;
+            ?>
+          </div>
+        </div>
+      </div>
+      
       <div class="card">
         <div class="card-block">
           <div class="card-text">
