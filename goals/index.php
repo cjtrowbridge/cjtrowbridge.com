@@ -53,8 +53,8 @@ for ($i = 0 ; $i < 6; $i++){
           <div class="card-text">
             <?php
               $HTML = file_get_contents('https://blog.cjtrowbridge.com/goals/');
-              echo $HTML;
               $HTML = stristr('<main',$HTML);
+              echo $HTML;
               $EndPos = strpos($HTML,'</main>');
               $HTML = substr($HTML,0,$EndPos);
               echo $HTML;
