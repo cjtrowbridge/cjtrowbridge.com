@@ -33,22 +33,8 @@
   <div class="row">
     <div class="col-xs-12">
       <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/tree/master/goals" style="color: #000;">Goal Timeline</a></h1>
-    </div><!--End col-xs-12-->
-  </div><!--End Row-->
-</div><!--End Container-->
 
-<?php
-
-$Now = strtotime(date('Y-m-01'));
-
-for ($i = 0 ; $i < 6; $i++){
-  ?>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      
-      <div class="card">
+        <div class="card">
         <div class="card-block">
           <div class="card-text">
             <?php
@@ -61,12 +47,26 @@ for ($i = 0 ; $i < 6; $i++){
               $EndPos = strpos($HTML,'<div class="entry-content">'.PHP_EOL.'			</div><!-- .entry-content -->');
               $HTML = substr($HTML,0,$EndPos);
               
-              
               echo $HTML;
             ?>
           </div>
         </div>
       </div>
+      
+    </div><!--End col-xs-12-->
+  </div><!--End Row-->
+</div><!--End Container-->  
+  
+<?php
+
+$Now = strtotime(date('Y-m-01'));
+
+for ($i = 0 ; $i < 6; $i++){
+  ?>
+  
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
       
       <div class="card">
         <div class="card-block">
