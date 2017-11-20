@@ -21,9 +21,6 @@
       background-color: #F8F8F8;
       padding-top: 2rem;
     }
-    h1{
-      margin-bottom: 2rem;
-    }
   </style>
   
 </head>
@@ -32,7 +29,6 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-      <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/tree/master/goals" style="color: #000;">Goal Timeline</a></h1>
 
         <div class="card">
         <div class="card-block">
