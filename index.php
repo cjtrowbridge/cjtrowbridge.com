@@ -45,7 +45,7 @@ function round_up($number, $precision = 2){
   </div>
   <div class="row">
     
-    <div class="col-xs-12 col-lg-6">
+    <div class="col-xs-12 col-lg-4">
       
       <div class="card">
         <div class="card-block">
@@ -62,7 +62,7 @@ function round_up($number, $precision = 2){
       </div><!--End Academics Card-->
     
     </div>
-    <div class="col-xs-12 col-lg-6">
+    <div class="col-xs-12 col-lg-8">
     
       <div class="card">
         <div class="card-block">
