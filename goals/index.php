@@ -21,7 +21,35 @@
       background-color: #F8F8F8;
       padding-top: 2rem;
     }
+    ul.tree, ul.tree ul {
+     list-style-type: none;
+     background: url(vline.png) repeat-y;
+     margin: 0;
+     padding: 0;
+   }
+   
+   ul.tree ul {
+     margin-left: 10px;
+   }
+
+   ul.tree li {
+     margin: 0;
+     padding: 0 12px;
+     line-height: 20px;
+     background: url(node.png) no-repeat;
+     color: #369;
+     font-weight: bold;
+   }
+
+   ul.tree li.last {
+     background: #fff url(lastnode.png) no-repeat;
+   }
   </style>
+  <script>
+    $(document).ready(function () {
+      $('ul.tree li:last-child').addClass('last');
+    });
+  </script>
   
 </head>
 <body>
