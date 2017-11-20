@@ -42,11 +42,11 @@
               $HTML = stristr($HTML,'<main');
               $EndPos = strpos($HTML,'</main>');
               $HTML = substr($HTML,0,$EndPos);
-              
+              /*
               $HTML = stristr($HTML,'<div class="entry-content">');
               $EndPos = strpos($HTML,'<div class="entry-content">'.PHP_EOL.'			</div><!-- .entry-content -->');
               $HTML = substr($HTML,0,$EndPos);
-              
+              */
               echo $HTML;
             ?>
           </div>
