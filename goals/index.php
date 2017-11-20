@@ -67,11 +67,6 @@
               $EndPos = strpos($HTML,'</main>');
               $HTML = substr($HTML,0,$EndPos);
               $HTML = str_replace('<ul>','<ul class="tree">',$HTML);
-              /*
-              $HTML = stristr($HTML,'<div class="entry-content">');
-              $EndPos = strpos($HTML,'<div class="entry-content">'.PHP_EOL.'			</div><!-- .entry-content -->');
-              $HTML = substr($HTML,0,$EndPos);
-              */
               echo $HTML;
             ?>
           </div>
@@ -82,60 +77,5 @@
   </div><!--End Row-->
 </div><!--End Container-->  
   
-<?php
-
-$Now = strtotime(date('Y-m-01'));
-
-for ($i = 0 ; $i < 6; $i++){
-  ?>
-  
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      
-      <div class="card">
-        <div class="card-block">
-          <div class="card-text">
-            
-            <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/goals/<?php echo date('Y-m',$Now); ?>.html" style="color: #000;"><?php echo date('F Y',$Now); ?></a></h1>
-            <?php
-              $ThisFile = date('Y-m',$Now).'.html';
-              if(file_exists($ThisFile)){
-                include($ThisFile);
-              }else{
-                echo '<p><i>No goals set yet.</i></p>';
-              }
-              
-            ?>
-            
-          </div><!--End card-text-->
-        </div><!--End card-block-->
-      </div><!--End card-->
-    </div><!--End col-xs-12-->
-  </div><!--End Row-->
-</div><!--End Container-->
-
-  <?php
-  $Now = strtotime('next month',$Now);
-}
-
-?>
-
-<div class="container">
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="card">
-        <div class="card-block">
-          <div class="card-text">
-            
-            <h1><a href="https://github.com/cjtrowbridge/cjtrowbridge.com/blob/master/goals/long-term.html" style="color: #000;">Long-Term Goals</a></h1>
-            <?php include('long-term.html'); ?>
-            
-          </div><!--End card-text-->
-        </div><!--End card-block-->
-      </div><!--End card-->
-    </div><!--End col-xs-12-->
-  </div><!--End Row-->
-</div><!--End Container-->
 </body>
 </html>
