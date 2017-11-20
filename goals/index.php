@@ -37,8 +37,6 @@
      padding: 0 12px;
      line-height: 20px;
      background: url(/img/node.png) no-repeat;
-     color: #369;
-     font-weight: bold;
    }
 
    ul.tree li.last {
