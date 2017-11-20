@@ -23,7 +23,7 @@
     }
     ul.tree, ul.tree ul {
      list-style-type: none;
-     background: url(vline.png) repeat-y;
+     background: url(/img/vline.png) repeat-y;
      margin: 0;
      padding: 0;
    }
