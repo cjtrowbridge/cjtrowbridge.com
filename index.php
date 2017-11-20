@@ -42,9 +42,10 @@ function round_up($number, $precision = 2){
       <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="CJ Trowbridge"></a>
     </div>
     
+  </div>
+  <div class="row">
     
     <div class="col-xs-12 col-lg-6">
-      <br>
       
       <div class="card">
         <div class="card-block">
