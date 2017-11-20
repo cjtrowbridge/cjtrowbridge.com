@@ -54,6 +54,7 @@ function round_up($number, $precision = 2){
           <div class="card-text">
             <div class="row">
               <div class="col-xs-12 col-lg-4">
+               
                 <h4>Current Academic Goals</h4>
                 <p>
                   <ul>
@@ -61,10 +62,10 @@ function round_up($number, $precision = 2){
                     <li>Master's in Business Administration</li>
                   </ul>
                 </p>
+              
               </div>
               <div class="col-xs-12 col-lg-8">
-                <h4>Current Projects</h4>
-
+                
                 <div class="row no-gutters">
                   <div class="col-xs-12 col-md-10">
                     <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
@@ -83,6 +84,7 @@ function round_up($number, $precision = 2){
                     <p><progress value="8" max="12"></progress></p>
                   </div>
                 </div>
+                
               </div>
             </div>
           </div>
