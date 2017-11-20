@@ -52,41 +52,26 @@ function round_up($number, $precision = 2){
       <div class="card">
         <div class="card-block">
           <div class="card-text">
-            <div class="row">
-              <div class="col-xs-12 col-lg-4">
-               
-                <h4>Current Academic Goals</h4>
-                <p>
-                  <ul>
-                    <li>Bachelor's in Computer Science</li>
-                    <li>Master's in Business Administration</li>
-                  </ul>
-                </p>
-              
+                
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-md-10">
+                <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
               </div>
-              <div class="col-xs-12 col-lg-8">
-                
-                <div class="row no-gutters">
-                  <div class="col-xs-12 col-md-10">
-                    <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
-                  </div>
-                  <div class="col-xs-12 col-md-2">
-                    <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
-                  </div>
-                </div>
-
-                <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
-                <div class="row no-gutters">
-                  <div class="col-xs-12 col-md-10">
-                    <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
-                  </div>
-                  <div class="col-xs-12 col-md-2">
-                    <p><progress value="8" max="12"></progress></p>
-                  </div>
-                </div>
-                
+              <div class="col-xs-12 col-md-2">
+                <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
               </div>
             </div>
+
+            <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-md-10">
+                <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <p><progress value="8" max="12"></progress></p>
+              </div>
+            </div>
+                
           </div>
         </div>
       </div><!--End Current Projects Card-->
