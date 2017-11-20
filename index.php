@@ -102,7 +102,7 @@ function round_up($number, $precision = 2){
         <div class="card-block">
           <div class="card-text">
             
-            <h4>Social Justice</h4>
+            <h4>Citizenship</h4>
             
             <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
             
