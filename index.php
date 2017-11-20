@@ -92,6 +92,9 @@ function round_up($number, $precision = 2){
         </div>
       </div><!--End Current Projects Card-->
       
+    </div>
+    <div class="col-xs-12">
+      
       <div class="card">
         <div class="card-block">
           <div class="card-text">
