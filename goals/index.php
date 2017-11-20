@@ -21,6 +21,7 @@
       background-color: #F8F8F8;
       padding-top: 2rem;
     }
+    /*
     ul.tree, ul.tree ul {
      list-style-type: none;
      background: url(/img/vline.png) repeat-y;
@@ -42,6 +43,7 @@
    ul.tree li.last {
      background: #fff url(/img/lastnode.png) no-repeat;
    }
+   */
   </style>
   <script>
     $(document).ready(function () {
