@@ -57,8 +57,8 @@
 <div class="container">
   <div class="row">
     <div class="col-xs-12">
-
-        <div class="card">
+      <p><a href="/">&lt;&lt; Back To Home Page</a></p>
+      <div class="card">
         <div class="card-block">
           <div class="card-text">
             <?php
