@@ -36,13 +36,13 @@
      margin: 0;
      padding: 0 12px;
      line-height: 20px;
-     background: url(node.png) no-repeat;
+     background: url(/img/node.png) no-repeat;
      color: #369;
      font-weight: bold;
    }
 
    ul.tree li.last {
-     background: #fff url(lastnode.png) no-repeat;
+     background: #fff url(/img/lastnode.png) no-repeat;
    }
   </style>
   <script>
@@ -66,6 +66,7 @@
               $HTML = stristr($HTML,'<main');
               $EndPos = strpos($HTML,'</main>');
               $HTML = substr($HTML,0,$EndPos);
+              $HTML = str_replace('<ul>','<ul class="tree">',$HTML);
               /*
               $HTML = stristr($HTML,'<div class="entry-content">');
               $EndPos = strpos($HTML,'<div class="entry-content">'.PHP_EOL.'			</div><!-- .entry-content -->');
