@@ -75,17 +75,26 @@ function round_up($number, $precision = 2){
           </div>
         </div>
       </div><!--End Current Projects Card-->
-      
     </div>
+    
     <div class="col-xs-12">
-      
+      <div class="card">
+        <div class="card-block">
+          <h4>The Merger</h4>
+          <p>I have combined two of my long-term projects into a single unified brand in order to better serve my partners. DJ-CJ.com and my freelance ecommerce and social meda business have combined to form <a href="https://trowbridge.marketing">Trowbridge Marketing</a>.</p>
+          <p>This new unified brand represents a unique perspective on marketing; a focus on in-person events such as fundraisers and dances combined with a focus on web and social media content relating the events and reinforcing the message of my partner brands and organizations.</p>
+          <p>Nothing is changing for any existing partners, except for a broader range of available and unified services.</p>
+          <p>Just like with my DJ business, all services relating to web and social media are free for nonprofits. Email me at <a href="mailto:chris.j.trowbridge@gmail.com"> with any questions.</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col-xs-12">
       <div class="card">
         <div class="card-block">
           <div class="card-text">
             
             <h4>Citizenship</h4>
-            
-            <p>I am expanding my <?php echo date('Y')-2003; ?> year <a href="https://dj-cj.com" target="_blank">DJ business</a> to focus on social justice through professional fundraising and pro bono services for worthy causes.</p>
             
             <p><b>Here Are Some Worthy Causes To Which I Subscribe and Donate Monthly:</b>
               <div class="row">
