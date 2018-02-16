@@ -55,17 +55,18 @@ function round_up($number, $precision = 2){
                 
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
-                <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void.<p>
+                <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
               </div>
               <div class="col-xs-12 col-md-2">
                 <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
               </div>
             </div>
 
+            <p>I am planning a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe! Stay tuned for lots of pics and videos!</p>
             <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
-                <p>Doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
+                <p>I'm doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
               </div>
               <div class="col-xs-12 col-md-2">
                 <p><progress value="9" max="12"></progress></p>
@@ -80,7 +81,7 @@ function round_up($number, $precision = 2){
     <div class="col-xs-12">
       <div class="card">
         <div class="card-block">
-          <h4>The Merger</h4>
+          <h4>Combining and Improving</h4>
           <p>I have combined two of my long-term projects into a single unified brand in order to better serve my partners. DJ-CJ.com and my freelance ecommerce and social meda business have combined to form <a href="https://trowbridge.marketing">Trowbridge Marketing</a>.</p>
           <p>This new unified brand represents a unique perspective on marketing; a focus on in-person events such as fundraisers and dances combined with a focus on web and social media content relating the events and reinforcing the message of my partner brands and organizations.</p>
           <p>Nothing is changing for any existing partners, except for a broader range of available and unified services.</p>
