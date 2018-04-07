@@ -62,8 +62,7 @@ function round_up($number, $precision = 2){
               </div>
             </div>
 
-            <p>I am going on a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe! Stay tuned for lots of pics and videos!</p>
-            <p>I am learning <a href="https://en.wikipedia.org/wiki/Go_(game)" target="_blank">Go</a> and enjoy Chess. I would love to meet more people interested in both.</p>
+            <p>I juts got back from a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe!</p>
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
                 <p>I'm doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
@@ -77,53 +76,6 @@ function round_up($number, $precision = 2){
         </div>
       </div><!--End Current Projects Card-->
     </div>
-    
-    <div class="col-xs-12">
-      <div class="card">
-        <div class="card-block">
-          <h4>Combining and Improving</h4>
-          <p>I have combined two of my long-term projects into a single unified brand in order to better serve my partners. DJ-CJ.com and my freelance ecommerce and social meda business have combined to form <a href="https://trowbridge.marketing">Trowbridge Marketing</a>.</p>
-          <p>This new unified brand represents a unique perspective on marketing; a focus on in-person events such as fundraisers and dances combined with a focus on web and social media content relating the events and reinforcing the message of my partner brands and organizations.</p>
-          <p>Nothing is changing for any existing partners, except for a broader range of available and unified services.</p>
-          <p>Just like with my DJ business, all services relating to web and social media are free for nonprofits. Email me at <a href="mailto:chris.j.trowbridge@gmail.com">chris.j.trowbridge@gmail.com</a> with any questions.</p>
-        </div>
-      </div>
-    </div>
-    
-    <div class="col-xs-12">
-      <div class="card">
-        <div class="card-block">
-          <div class="card-text">
-            
-            <h4>Citizenship</h4>
-            
-            <p><b>Here Are Some Worthy Causes To Which I Subscribe and Donate Monthly:</b>
-              <div class="row">
-                
-                <div class="col-xs-12 col-md-8">
-                  <b>ACLU:</b> a nonprofit whose mission is, 
-                  <div class="blockquote">"To defend and preserve the individual rights and liberties guaranteed to every person in this country by the Constitution and laws of the United States."</div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                  <a href="https://action.aclu.org/secure/aclu-first-line-defense-peoples-rights?s_src=UNV170101INA&ms=web_hero_trump_gol" target="_blank" class="btn btn-block btn-success">Pitch In a Few Bucks a Month<br >To The ACLU</a>
-                </div>
-                
-                <div class="col-xs-12"><br></div>
-                
-                <div class="col-xs-12 col-md-8">
-                  <b>Planetary Society:</b> a nonprofit founded by Carl Sagan and led by Bill Nye whose mission is, 
-                  <div class="blockquote">"To inspire the people of Earth to explore other worlds, understand our own, and seek life elsewhere."</div>
-                </div>
-                <div class="col-xs-12 col-md-4">
-                  <a href="https://secure.planetary.org/site/SPageNavigator/memberships.html" target="_blank" class="btn btn-block btn-success">Pitch In a Few Bucks a Month<br> To The Planetary Society</a>
-                </div>
-                
-              </div>
-            </p>
-            
-          </div>
-        </div>
-      </div><!--End Social Justice Card-->
       
     </div><!--End col-xs-12-->
   </div><!--End Row-->
