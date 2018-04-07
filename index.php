@@ -62,7 +62,7 @@ function round_up($number, $precision = 2){
               </div>
             </div>
 
-            <p>I juts got back from a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe!</p>
+            <p>I just got back from a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe!</p>
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
                 <p>I'm doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
