@@ -38,15 +38,14 @@ function round_up($number, $precision = 2){
     
     <div class="col-md-6 col-sm-12"><!--Begin Column 2-->
       
+      <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
+      <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+      
       <div class="card">
         <div class="card-block">
           <div class="card-text">
             
             <div class="row no-gutters">
-              <div class="col-xs-12">
-                <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
-                <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
-              </div>
               <div class="col-xs-12 col-md-10">
                 <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
               </div>
@@ -54,7 +53,15 @@ function round_up($number, $precision = 2){
                 <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
               </div>
             </div>
-
+            
+            
+          </div><!--End Card-text-->
+        </div><!--End Card-block-->
+      </div><!--End Card-->
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            
             <p>I just got back from a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe!</p>
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
@@ -65,6 +72,13 @@ function round_up($number, $precision = 2){
               </div>
             </div>
             
+            
+          </div><!--End Card-text-->
+        </div><!--End Card-block-->
+      </div><!--End Card-->
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
             
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
@@ -81,20 +95,19 @@ function round_up($number, $precision = 2){
               </div>
             </div>
             
-            
-            <div class="text-muted">
-              <p>
-                Check out my <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
-                <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
-                <a href="//cjtrowbridge.com/resume/">resume</a>, 
-                and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
-              </p>
-            </div>
-            
-            
           </div><!--End Card-text-->
         </div><!--End Card-block-->
       </div><!--End Card-->
+      
+      <div class="text-muted">
+        <p>
+          Check out my <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
+          <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
+          <a href="//cjtrowbridge.com/resume/">resume</a>, 
+          and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
+        </p>
+      </div>
+
       
     </div><!--End column 2-->
     
