@@ -75,10 +75,12 @@ function round_up($number, $precision = 2){
 </div><!--End Container-->
   
 <div class="text-muted text-xs-center">
-  <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
-  <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
-  <a href="//cjtrowbridge.com/resume/">resume</a>, 
-  and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
+  <p>
+    <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
+    <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
+    <a href="//cjtrowbridge.com/resume/">resume</a>, 
+    and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
+  </p>
 </div>
   
 </body>
