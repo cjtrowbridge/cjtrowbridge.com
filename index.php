@@ -32,28 +32,21 @@ function round_up($number, $precision = 2){
 <div class="container">
   <div class="row">
     
-    <div class="col-md-6 col-sm-12">
+    <div class="col-md-6 col-sm-12"><!--Begin Column 1-->
       <a href="https://www.facebook.com/djcj88" target="_blank"><img src="/cj.jpg" alt="CJ Trowbridge"></a>
-    </div>
+    </div><!--End Column 1-->
     
-    <div class="col-md-6 col-sm-12"> 
-      <br>
-      <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
-      <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
-    </div>
-    
-  </div>
-  <div class="row">
-    &nbsp;
-  </div>
-  <div class="row">
-    
-    <div class="col-xs-12">
+    <div class="col-md-6 col-sm-12"><!--Begin Column 2-->
+      
       <div class="card">
         <div class="card-block">
           <div class="card-text">
-                
+            
             <div class="row no-gutters">
+              <div class="col-xs-12">
+                <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
+                <p><b>Software Engineer & Entrepreneur</b><br><i><a href="/resume">Award-winning</a> innovator, building <a href="https://twitter.com/gonedark/status/898606946542120960" target="_blank">technical solutions</a> to business problems.</i></p>
+              </div>
               <div class="col-xs-12 col-md-10">
                 <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
               </div>
@@ -72,13 +65,13 @@ function round_up($number, $precision = 2){
               </div>
             </div>
                 
-          </div>
-        </div>
-      </div><!--End Current Projects Card-->
-    </div>
+          </div><!--End Card-text-->
+        </div><!--End Card-block-->
+      </div><!--End Card-->
       
-    </div><!--End col-xs-12-->
-  </div><!--End Row-->
+    </div><!--End column 2-->
+    
+  </div><!--End row-->
 </div><!--End Container-->
   
 <div class="text-muted text-xs-center">
