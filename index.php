@@ -66,6 +66,22 @@ function round_up($number, $precision = 2){
             </div>
             
             
+            <div class="row no-gutters">
+              <div class="col-xs-12 col-md-10">
+                <p>I left the workforce to persue a Bachelor's in Computer Science and then a Masters in Business Administration.</p>
+                <ol>
+                  <li>✔IGETC</li>
+                  <li>✔Assist</li>
+                  <li>B.S. in Computer Science</li>
+                  <li>MBA</li>
+                </ol>
+              </div>
+              <div class="col-xs-12 col-md-2">
+                <p><progress value="2" max="4"></progress></p>
+              </div>
+            </div>
+            
+            
             <div class="text-muted">
               <p>
                 Check out my <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
