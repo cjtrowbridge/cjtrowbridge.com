@@ -64,7 +64,18 @@ function round_up($number, $precision = 2){
                 <p><progress value="9" max="12"></progress></p>
               </div>
             </div>
-                
+            
+            
+            <div class="text-muted text-xs-center">
+              <p>
+                <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
+                <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
+                <a href="//cjtrowbridge.com/resume/">resume</a>, 
+                and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
+              </p>
+            </div>
+            
+            
           </div><!--End Card-text-->
         </div><!--End Card-block-->
       </div><!--End Card-->
@@ -74,14 +85,7 @@ function round_up($number, $precision = 2){
   </div><!--End row-->
 </div><!--End Container-->
   
-<div class="text-muted text-xs-center">
-  <p>
-    <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
-    <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
-    <a href="//cjtrowbridge.com/resume/">resume</a>, 
-    and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
-  </p>
-</div>
+
   
 </body>
 </html>
