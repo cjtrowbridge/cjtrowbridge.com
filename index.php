@@ -63,6 +63,14 @@ function round_up($number, $precision = 2){
           <div class="card-text">
             
             <p>I just got back from a <a href="https://blog.cjtrowbridge.com" target="_blank">whirlwind tour</a> of Europe!</p>
+            
+          </div><!--End Card-text-->
+        </div><!--End Card-block-->
+      </div><!--End Card-->
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
                 <p>I'm doing <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
@@ -71,7 +79,6 @@ function round_up($number, $precision = 2){
                 <p><progress value="9" max="12"></progress></p>
               </div>
             </div>
-            
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
