@@ -92,13 +92,14 @@ function round_up($number, $precision = 2){
                 <p>I left the workforce to persue a Bachelor's in Computer Science and then a Masters in Business Administration.</p>
                 <ol>
                   <li>IGETC ✔</li>
-                  <li>Assist ⏳</li>
-                  <li>B.S. in Computer Science</li>
-                  <li>MBA</li>
+                  <li>Assist ✔</li>
+                  <li>Associate's in Social Justice ⏳</li>
+                  <li>Bachelor's in Computer Science</li>
+                  <li>Master's in Business Administration</li>
                 </ol>
               </div>
               <div class="col-xs-12 col-md-2">
-                <p><progress value="2" max="5"></progress></p>
+                <p><progress value="3" max="6"></progress></p>
               </div>
             </div>
             
