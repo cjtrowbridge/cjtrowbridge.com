@@ -91,9 +91,9 @@ function round_up($number, $precision = 2){
               <div class="col-xs-12 col-md-10">
                 <p>I left the workforce to finally get my degree(s)!</p>
                 <ol>
-                  <li>IGETC ✔</li>
-                  <li>Assist ✔</li>
-                  <li>Associate's in Social Justice ⏳</li>
+                  <li><a href="http://admission.universityofcalifornia.edu/transfer/general-education-igetc/igetc/index.html" target="_blank">IGETC</a> ✔</li>
+                  <li><a href="http://web2.assist.org/web-assist/help/help-what_is_assist.html" target="_blank">Assist</a> ✔</li>
+                  <li><a href="http://catalog.sierracollege.edu/departments/sociology/#degreescertificatestext" target="_blank">Associate's in Social Justice</a> ⏳</li>
                   <li>Bachelor's in Computer Science</li>
                   <li>Master's in Business Administration</li>
                 </ol>
