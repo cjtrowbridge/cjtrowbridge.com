@@ -89,7 +89,7 @@ function round_up($number, $precision = 2){
             
             <div class="row no-gutters">
               <div class="col-xs-12 col-md-10">
-                <p>I left the workforce to persue a Bachelor's in Computer Science and then a Masters in Business Administration.</p>
+                <p>I left the workforce to finally get my degree(s)!</p>
                 <ol>
                   <li>IGETC ✔</li>
                   <li>Assist ✔</li>
