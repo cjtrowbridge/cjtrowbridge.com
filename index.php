@@ -109,7 +109,10 @@ function round_up($number, $precision = 2){
       
       <div class="text-muted">
         <p>
-          Check out my <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
+          Check out my 
+          <a href="//facebook.com/djcj88/" target="_blank">facebook</a>,
+          <a href="//instagram.com/cjtrowbridge/" target="_blank">instagram</a>,
+          <a href="//github.com/cjtrowbridge/" target="_blank">github</a>,
           <a href="//www.linkedin.com/in/cjtrowbridge" target="_blank">linkedin</a>, 
           <a href="//cjtrowbridge.com/resume/">resume</a>, 
           and <a href="//blog.cjtrowbridge.com" target="_blank">blog</a>.
