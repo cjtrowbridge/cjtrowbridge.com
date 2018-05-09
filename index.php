@@ -39,7 +39,7 @@ function round_up($number, $precision = 2){
     <div class="col-md-6 col-sm-12"><!--Begin Column 2-->
       
       <h1 style="white-space: nowrap;">CJ <a href="https://trowbridge.house/" style="color: #000;" target="_blank">Trowbridge</a></h1>
-      <p><a href="/resume">Award-winning</a> entrepreneur creating business solutions to shared problems.</p>
+      <p>Creating business solutions to shared problems.</p>
       
       <div class="card">
         <div class="card-block">
