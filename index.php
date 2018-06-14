@@ -79,7 +79,7 @@ function round_up($number, $precision = 2){
                 <p>I recently completed <a href="//blog.cjtrowbridge.com/2017/05/02/the-levels-challenge-start-12-startups-in-12-months/" target="_blank">The Levels Challenge</a>; building 12 startup products in 12 months.</p>
               </div>
               <div class="col-xs-12 col-md-2">
-                <p><progress value="9" max="12"></progress></p>
+                <p><progress value="12" max="12"></progress></p>
               </div>
             </div>
             
