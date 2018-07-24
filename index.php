@@ -58,6 +58,26 @@ function round_up($number, $precision = 2){
         </div><!--End Card-block-->
       </div><!--End Card-->
       
+      <?php 
+      $ManBurn = strtotime('September 1, 2018');
+      if(time() < $ManBurn){
+        
+        $ManBurnCountdown = floor( ( $ManBurn - time() ) / (60*60*24) );
+      ?>
+      
+      <div class="card">
+        <div class="card-block">
+          <div class="card-text">
+            
+            <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php $ManBurnCountdown; ?> days!</p>
+            
+          </div><!--End Card-text-->
+        </div><!--End Card-block-->
+      </div><!--End Card-->
+      
+      <?php
+      }
+      ?>
       
       <div class="card">
         <div class="card-block">
