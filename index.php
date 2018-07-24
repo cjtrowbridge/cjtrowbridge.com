@@ -61,8 +61,7 @@ function round_up($number, $precision = 2){
       <?php 
       $ManBurn = strtotime('September 1, 2018');
       if(time() < $ManBurn){
-        
-        $ManBurnCountdown = floor( ( $ManBurn - time() ) / (60*60*24) );
+        $ManBurnCountdown = ceil( ( $ManBurn - time() ) / (60*60*24) );
       ?>
       
       <div class="card">
@@ -70,6 +69,24 @@ function round_up($number, $precision = 2){
           <div class="card-text">
             
             <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php echo $ManBurnCountdown; ?> days!</p>
+            <p><b>My Burning Man Address:</b></p>
+            <p>
+              <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
+              7:30 and Dewey, 
+              <a href="https://en.wikipedia.org/wiki/Burning_Man" target="_blank">Black Rock City</a>, 
+              <a href="https://en.wikipedia.org/wiki/Nevada" target="_blank">Nevada</a>, 
+              <a href="https://en.wikipedia.org/wiki/United_States" target="_blank">United States</a>, 
+              <a href="https://en.wikipedia.org/wiki/North_America" target="_blank">North America</a>, 
+              <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth (Sol 3)</a>, 
+              <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Sol System</a>, 
+              <a href="https://en.wikipedia.org/wiki/Carina–Sagittarius_Arm" target="_blank">Carina–Sagittarius Arm</a>, 
+              <a href="https://en.wikipedia.org/wiki/Milky_Way" target="_blank">Milky Way Galaxy</a>, 
+              <a href="https://en.wikipedia.org/wiki/Local_Group" target="_blank">Local Group</a>, 
+              <a href="https://en.wikipedia.org/wiki/Virgo_Cluster" target="_blank">Virgo Cluster</a>, 
+              <a href="https://en.wikipedia.org/wiki/Laniakea_Supercluster" target="_blank">Laniakea Supercluster</a>,
+              <a href="https://en.wikipedia.org/wiki/Universe" target="_blank">The Universe</a>.
+            </p>
+            <p>Come find me!</p>
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
