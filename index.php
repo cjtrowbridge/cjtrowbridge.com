@@ -69,7 +69,7 @@ function round_up($number, $precision = 2){
         <div class="card-block">
           <div class="card-text">
             
-            <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php $ManBurnCountdown; ?> days!</p>
+            <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php echo $ManBurnCountdown; ?> days!</p>
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
