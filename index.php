@@ -71,7 +71,7 @@ function round_up($number, $precision = 2){
             <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php echo $ManBurnCountdown; ?> days!</p>
             <p><b>My Burning Man Address:</b></p>
             <p>
-              "<a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>", 
+              <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
               <b>7:30 and Dewey</b>, 
               <a href="https://en.wikipedia.org/wiki/Burning_Man" target="_blank">Black Rock City</a>, 
               <a href="https://en.wikipedia.org/wiki/Nevada" target="_blank">Nevada</a>, 
