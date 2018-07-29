@@ -72,7 +72,7 @@ function round_up($number, $precision = 2){
             <p><b>My Burning Man Address:</b></p>
             <p>
               <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
-              <b>7:30 and Dewey</b>, 
+              <b>7:00 and Dewey</b>, 
               <a href="https://en.wikipedia.org/wiki/Burning_Man" target="_blank">Black Rock City</a>, 
               <a href="https://en.wikipedia.org/wiki/Nevada" target="_blank">Nevada</a>, 
               <a href="https://en.wikipedia.org/wiki/United_States" target="_blank">United States</a>, 
