@@ -92,8 +92,8 @@ function Burndown($Time){
             <p>The man <?php echo $ManBurnCountdown; ?>! <a href="http://www.bmir.org/" target="_blank">🎵</a></p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
             
-            <p><b>My Burning Man Address:</b></p>
             <p>
+              <b>Come Find Me:</b>
               <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
               <b>7:00 and Dewey</b>, 
               <a href="https://en.wikipedia.org/wiki/Burning_Man" target="_blank">Black Rock City</a>, 
@@ -109,7 +109,6 @@ function Burndown($Time){
               <a href="https://en.wikipedia.org/wiki/Laniakea_Supercluster" target="_blank">Laniakea Supercluster</a>,
               <a href="https://en.wikipedia.org/wiki/Universe" target="_blank">The Universe</a>.
             </p>
-            <p>Come find me!</p>
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
