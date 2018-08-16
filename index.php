@@ -86,9 +86,9 @@ function Burndown($Time){
             $Gates = str_replace('opens', 'open', $Gates);
             
             ?>
-            <p>The gates <?php echo $Gates; ?>!</p>
-            <p>The man <?php echo $ManBurnCountdown; ?>! <a href="http://www.bmir.org/" target="_blank">🎵</a></p>
-            <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
+            <p>Gates <b><?php echo $Gates; ?></b>!</p>
+            <p>The man <b><?php echo $ManBurnCountdown; ?></b>! <a href="http://www.bmir.org/" target="_blank">🎵</a></p>
+            <p>The temple <b><?php echo $TempleBurnCountdown; ?></b>!</p>
             
             <p><b>My Burning Man Address:</b></p>
             <p>
