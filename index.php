@@ -8,6 +8,17 @@ function round_up($number, $precision = 2){
   return (ceil($number * $fig) / $fig);
 }
 
+function Burndown($Time){
+  $Time = strtotime($Time);
+  if(time() < $Time){
+    return 'burns in '.ceil( ( $Time - time() ) / (60*60*24) ).' days';
+  }elseif(date('Y-m-d') == date('Y-m-d',$Time)){
+    return 'burns TODAY';
+  }else{
+    return 'has burned';
+  }
+}
+
 ?><!DOCTYPE html>
 <html>
 <head>
@@ -65,13 +76,18 @@ function round_up($number, $precision = 2){
           <div class="card-text">
             
             <?php 
-            $ManBurn = strtotime('September 1, 2018');
-            $TempleBurn = strtotime('September 2, 2018');
-            if(time() < $ManBurn){
-              $ManBurnCountdown = 'burns in '.ceil( ( $ManBurn - time() ) / (60*60*24) ).' days';
-            }
+            
+            $Gates               = Burndown('August 26, 2018');
+            $ManBurnCountdown    = Burndown('September 1, 2018');
+            $TempleBurnCountdown = Burndown('September 2, 2018');
+            
+            //Whatever
+            $Gates = str_replace('burn', 'open', $Gates);
+            
             ?>
-            <p>The man <a href="http://www.bmir.org/" target="_blank"><?php echo $ManBurnCountdown; ?></a>!</p>
+            <p>The gates <?php echo $Gates; ?>!</p>
+            <p>The man <?php echo $ManBurnCountdown; ?>! <a href="http://www.bmir.org/" target="_blank">🎵</a></p>
+            <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
             
             <p><b>My Burning Man Address:</b></p>
             <p>
