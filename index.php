@@ -83,6 +83,7 @@ function Burndown($Time){
             
             //Whatever
             $Gates = str_replace('burn', 'open', $Gates);
+            $Gates = str_replace('opens', 'open', $Gates);
             
             ?>
             <p>The gates <?php echo $Gates; ?>!</p>
