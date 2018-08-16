@@ -58,17 +58,21 @@ function round_up($number, $precision = 2){
         </div><!--End Card-block-->
       </div><!--End Card-->
       
-      <?php 
-      $ManBurn = strtotime('September 1, 2018');
-      if(time() < $ManBurn){
-        $ManBurnCountdown = ceil( ( $ManBurn - time() ) / (60*60*24) );
-      ?>
+      
       
       <div class="card">
         <div class="card-block">
           <div class="card-text">
             
-            <p>The man <a href="http://www.bmir.org/" target="_blank">burns</a> in <?php echo $ManBurnCountdown; ?> days!</p>
+            <?php 
+            $ManBurn = strtotime('September 1, 2018');
+            $TempleBurn = strtotime('September 2, 2018');
+            if(time() < $ManBurn){
+              $ManBurnCountdown = 'burns in '.ceil( ( $ManBurn - time() ) / (60*60*24) ).' days';
+            }
+            ?>
+            <p>The man <a href="http://www.bmir.org/" target="_blank"><?php echo $ManBurnCountdown; ?></a>!</p>
+            
             <p><b>My Burning Man Address:</b></p>
             <p>
               <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
@@ -92,9 +96,7 @@ function round_up($number, $precision = 2){
         </div><!--End Card-block-->
       </div><!--End Card-->
       
-      <?php
-      }
-      ?>
+
       
       <div class="card">
         <div class="card-block">
