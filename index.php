@@ -99,8 +99,14 @@ function Burndown($Time){
             
             ?>
             <p>Gates <?php echo $Gates; ?>!</p>
-            <p>The man <?php echo $ManBurnCountdown; ?>! <a href="http://www.bmir.org/" target="_blank">🎵</a></p>
+            <p>The man <?php echo $ManBurnCountdown; ?>!</p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
+            <p>
+              Listen to Burning Man Information Radio!
+              <audio id="t-rex-roar" controls="" src="http://bmir-ice.streamguys.com/live">
+                Your browser does not support the <code>audio</code> element.
+              </audio>
+            </p>
             
             <p>
               <b>Come Find Me:</b>
