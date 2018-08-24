@@ -102,7 +102,7 @@ function Burndown($Time){
             <p>The man <?php echo $ManBurnCountdown; ?>!</p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
             <p>
-              Listen to Burning Man Information Radio!
+              Listen to Burning Man Information Radio (94.5mhz on Playa)!
               <audio id="t-rex-roar" controls="" src="http://bmir-ice.streamguys.com/live">
                 Your browser does not support the <code>audio</code> element.
               </audio>
