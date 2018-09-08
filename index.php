@@ -89,9 +89,9 @@ function Burndown($Time, $Past, $Present, $Future){
             
             <?php 
             
-            $GatesCountdown      = Burndown('August 25, 2019',   'have opened', 'are opening', 'have opened');
-            $ManBurnCountdown    = Burndown('August 31, 2019',   'has burned',  'is burning',  'has burned');
-            $TempleBurnCountdown = Burndown('September 1, 2019', 'has burned',  'is burning',  'has burned');
+            $GatesCountdown      = Burndown('August 25, 2019',   'have opened', 'are opening', 'open');
+            $ManBurnCountdown    = Burndown('August 31, 2019',   'has burned',  'is burning',  'burns');
+            $TempleBurnCountdown = Burndown('September 1, 2019', 'has burned',  'is burning',  'burns');
             
             ?>
             <p>Gates <?php echo $GatesCountdown; ?>!</p>
