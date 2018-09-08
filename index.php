@@ -89,24 +89,13 @@ function Burndown($Time){
             
             <?php 
             
-            $Gates               = Burndown('August 26, 2018');
-            $ManBurnCountdown    = Burndown('September 1, 2018');
-            $TempleBurnCountdown = Burndown('September 2, 2018');
-            
-            //Whatever
-            $Gates = str_replace('burn', 'open', $Gates);
-            $Gates = str_replace('opens', 'open', $Gates);
+            $Gates               = Burndown('August 25, 2019');
+            $ManBurnCountdown    = Burndown('August 31, 2019');
+            $TempleBurnCountdown = Burndown('September 1, 2019');
             
             ?>
-            <p>Gates <?php echo $Gates; ?>!</p>
             <p>The man <?php echo $ManBurnCountdown; ?>!</p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
-            <p>
-              Listen to Burning Man Information Radio (94.5mhz on Playa)!<br>
-              <audio id="t-rex-roar" controls="" src="http://bmir-ice.streamguys.com/live">
-                Your browser does not support the <code>audio</code> element.
-              </audio>
-            </p>
             
             <p>
               <b>Come Find Me:</b>
