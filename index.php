@@ -8,14 +8,14 @@ function round_up($number, $precision = 2){
   return (ceil($number * $fig) / $fig);
 }
 
-function Burndown($Time){
+function Burndown($Time, $Past, $Present, $Future){
   $Time = strtotime($Time);
   if(time() < $Time){
-    return 'burns in '.ceil( ( $Time - time() ) / (60*60*24) ).' days';
+    return $Future.' in '.ceil( ( $Time - time() ) / (60*60*24) ).' days';
   }elseif(date('Y-m-d') == date('Y-m-d',$Time)){
-    return 'burns TODAY';
+    return $Present.' TODAY';
   }else{
-    return 'has burned';
+    return $Past;
   }
 }
 
@@ -89,11 +89,12 @@ function Burndown($Time){
             
             <?php 
             
-            $Gates               = Burndown('August 25, 2019');
-            $ManBurnCountdown    = Burndown('August 31, 2019');
-            $TempleBurnCountdown = Burndown('September 1, 2019');
+            $GatesCountdown      = Burndown('August 25, 2019',   'have opened', 'are opening', 'have opened');
+            $ManBurnCountdown    = Burndown('August 31, 2019',   'has burned',  'is burning',  'has burned');
+            $TempleBurnCountdown = Burndown('September 1, 2019', 'has burned',  'is burning',  'has burned');
             
             ?>
+            <p>Gates <?php echo $GatesCountdown; ?>!</p>
             <p>The man <?php echo $ManBurnCountdown; ?>!</p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
             
