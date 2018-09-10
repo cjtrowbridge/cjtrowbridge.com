@@ -85,7 +85,7 @@ function Burndown($Time, $Past, $Present, $Future){
         <div class="card-block">
           <div class="card-text">
             
-            <h3>Burning Man 2018!</h3>
+            <h3>Burning Man!</h3>
             
             <?php 
             
