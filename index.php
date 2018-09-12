@@ -170,8 +170,8 @@ function Burndown($Time, $Past, $Present, $Future){
               <div class="col-xs-12">
                 <p>I am considering pursuing these certificates as well;</p>
                 <ul>
-                  <li>Nonprofit Management</li>
-                  <li>Fundraising</li>
+                  <li><a href="https://ce.csueastbay.edu/ce/campaign-landing/NPM-17D-adwords.html?gclid=CjwKCAjw_b3cBRByEiwAdG8WqgVORPPrzSY3iBosuz9EVfyMM7lA7wogfynUZsueLwpWx3_81D1N-RoCgxcQAvD_BwE" target="_blank">Nonprofit Management</a></li>
+                  <li><a href="http://www.sacbee.com/news/business/biz-columns-blogs/cathie-anderson/article68190682.html" target="_blank">Fundraising</a></li>
                   <li>Adsense/ Adwords</li>
                   <li>CCNA</li>
                 </ul>
