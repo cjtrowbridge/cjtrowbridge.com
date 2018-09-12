@@ -167,6 +167,15 @@ function Burndown($Time, $Past, $Present, $Future){
               <div class="col-xs-12 col-md-2">
                 <p><progress value="3" max="6"></progress></p>
               </div>
+              <div class="col-xs-12">
+                <p>I am considering pursuing these certificates as well;</p>
+                <ul>
+                  <li>Nonprofit Management</li>
+                  <li>Fundraising</li>
+                  <li>Adsense/ Adwords</li>
+                  <li>CCNA</li>
+                </ul>
+            </div>
             </div>
             
           </div><!--End Card-text-->
