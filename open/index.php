@@ -25,7 +25,7 @@
   <div class="row">
     <div class="col-12">
       <p class="text-center">
-        <a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &lt;&lt;</a>
+        <a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &gt;&gt;</a>
       </p>
       <div class="row">
         <div class="col-12 col-md-6">
