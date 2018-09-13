@@ -21,11 +21,10 @@
 </head>
 <body>
 
-<div class="container">
+<div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <p><a href="/">&lt;&lt; Back To Home Page</a></p>
-      <p><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information</a></p>
+      <p><a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &lt;&lt;</a></p>
       
       
       <h1>Open Revenue Data</h1>
