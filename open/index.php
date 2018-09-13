@@ -31,7 +31,9 @@
           <iframe width="800" height="304.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&amp;format=interactive"></iframe>
         </div>
       </div>
-          
+      
+      <br>
+      
       <div class="card">
         <div class="card-body">
           <h2>Revenue Totals</h2>
