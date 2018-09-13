@@ -22,10 +22,15 @@
     
       <div class="card">
         <div class="card-body">
-          <iframe style="width: 100%;" width="600" height="304.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&amp;format=interactive"></iframe>
+          <iframe width="800" height="304.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&amp;format=interactive"></iframe>
         </div>
       </div>
-      
+      <div class="card">
+        <div class="card-body">
+          <iframe width="800" height="303.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=1236350701&amp;format=interactive"></iframe>
+        </div>
+      </div>
+            
     </div>
   </div>
 </div>
