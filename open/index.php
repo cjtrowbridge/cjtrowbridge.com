@@ -24,12 +24,15 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col-12">
-      <p><a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &lt;&lt;</a></p>
-          
+      <p class="text-center">
+        <a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &lt;&lt;</a>
+      </p>
       <div class="row">
         <div class="col-12 col-md-6">
-          <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image" alt="Revenue Mix">
-          <!--iframe width="800" height="304.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&amp;format=image"></iframe-->
+          <p class="text-center">
+            <img src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image" alt="Revenue Mix">
+            <!--iframe width="800" height="304.5" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&amp;format=image"></iframe-->
+          </p>
         </div><!--/col-12 col-md-6-->
         <div class="col-12 col-md-6">
           <p class="text-center">
