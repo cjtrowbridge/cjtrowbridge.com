@@ -8,9 +8,10 @@
 
 function UpdateMedia($URL,$File){
   if(date('Y-m-d H',filemtime($File))==date('Y-m-d H')){
-    die('Too soon!');
+    echo '<p>Too soon for: <a href="'.$File.'">'.$File.'</a></p>';
   }
   copy($URL, $File);
+  echo '<p>Updated: <a href="'.$File.'">'.$File.'</a></p>';
 }
 
 UpdateMedia("https://graph.facebook.com/540290721/picture?width=9999&height=9999", "cj.jpg");
