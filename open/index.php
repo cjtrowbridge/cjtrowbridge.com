@@ -84,7 +84,7 @@
           <h1>The Projects <i class="more-info"><a href="https://blog.cjtrowbridge.com/" target="_blank">More Info</a></i></h1>
 
           <h4>DJ</h4>
-          <p>I have owned a DJ comapny for 15 years. I am focusing on setting up two weekly events as well as weddings.</p>
+          <p>I have owned a DJ comapny for 15 years. I've left it on the back burner for the last year, so now I'm focusing on setting up two weekly events as well as monthly weddings.</p>
 
           <h4>Blog</h4>
           <p>I have a blog which gets a fair deal of traffic related to some niche topics. I have already done some testing for monetization through affiliate programs and seen a surprising amount of success. I intend to expand on this.</p>
