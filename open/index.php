@@ -81,9 +81,9 @@
       
       <div class="card">
         <div class="card-body">
-          <h1>The Projects</h1>
+          <h1>The Projects <i class="more-info"><a href="https://blog.cjtrowbridge.com/" target="_blank">More Info</a></i></h1>
 
-          <h4><a href="https://blog.cjtrowbridge.com/2018/09/13/plan-dj-cj/" target="_blank">DJ</a></h4>
+          <h4>DJ</h4>
           <p>I have owned a DJ comapny for 15 years. I am focusing on setting up two weekly events as well as weddings.</p>
 
           <h4>Blog</h4>
