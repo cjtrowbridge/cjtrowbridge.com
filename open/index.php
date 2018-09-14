@@ -46,6 +46,28 @@
       
     </div><!--/col-12-->
   </div><!--/row-->
+  <div class="row">
+    <div class="col-12">
+      <h4><a href="https://blog.cjtrowbridge.com/2018/09/13/plan-dj-cj/" target="_blank">DJ</a></h4>
+      <p>I have owned a DJ comapny for 15 years. I am focusing on setting up two weekly events as well as weddings.</p>
+      
+      <h4>Blog</h4>
+      <p>I have a blog which gets a fair deal of traffic related to some niche topics. I have already done some testing for monetization through affiliate programs and seen a surprising amount of success. I intend to expand on this.</p>
+      
+      <h4>Bolt Action</h4>
+      <p>I will be selling kits of lagbolts with links. These are an excellent solution for anchoring temporary structures under high wind conditions at music and art festivals. They are surprisingly difficult to put together from scratch, requiring a significant amount of research. This affords me an advantage which I can leverage as a product.</p>
+      
+      <h4>RSI Alert</h4>
+      <p>This was one of the products I built during the 12 Startups in 12 Months Challenge. I mothballed it afterwards and I have recieved a lot of requests to put it back together. I will be building a following and then monetizing it.</p>
+      
+      <h4>Wearing Today</h4>
+      <p>This is another project from the 12 Startups in 12 Months Challenge. I recieved some great feedback which is going into version 2. This should hopefully pick up a following and lend itself quickly to monetization.</p>
+      
+      <h4>Whats Up</h4>
+      <p>This is a code name for a project which I haven't launched yet. It will allow users to search for specific types of weekly events, rather than bars and nightclubs. This is a fundamental advantage over most currently available search products.</p>
+      
+    </div><!--/col-12-->
+  </div><!--/row-->
 </div><!--/container-->
 
 
