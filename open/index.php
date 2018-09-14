@@ -50,13 +50,13 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1>2018 <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">Goals</a></h1>
+      <h1>2018 Goals (<a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a>)</h1>
       <ul>
         <li>At least three projects have monthly nonzero revenue numbers.</li>
       </ul>
       
       
-      <h1>2019 <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">Goals</a></h1>
+      <h1>2019 Goals (<a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a>)</h1>
       <ul>
         <li>Each of three projects produces at least 20% of total revenue.</li>
         <li>Total monthly revenue exceeds $4,000.</li>
