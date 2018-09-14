@@ -46,6 +46,8 @@
       
     </div><!--/col-12-->
   </div><!--/row-->
+</div><!--/container-fluid-->
+<div class="container">
   <div class="row">
     <div class="col-12">
       <h4><a href="https://blog.cjtrowbridge.com/2018/09/13/plan-dj-cj/" target="_blank">DJ</a></h4>
