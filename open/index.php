@@ -16,6 +16,12 @@
       width: 100%;
       max-width: 100%;
     }
+    h1 i.more-info{
+      display: none;
+    }
+    h1:hover i.more-info{
+      display: block;
+    }
   </style>
   
 </head>
@@ -50,15 +56,13 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <h1>2018 Goals</h1>
-      <p><i><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></p>
+      <h1>2018 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">...</a></i></h1>
       <ul>
         <li>At least three projects have monthly nonzero revenue numbers.</li>
       </ul>
       
       
-      <h1>2019 Goals</h1>
-      <p><i><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></p>
+      <h1>2019 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">...</a></i></h1>
       <ul>
         <li>Each of three projects produces at least 20% of total revenue.</li>
         <li>Total monthly revenue exceeds $4,000.</li>
