@@ -56,19 +56,21 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
+      <br>
       <h1>2018 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></h1>
       <ul>
         <li>At least three projects have monthly nonzero revenue numbers.</li>
       </ul>
       
-      
+      <br>
       <h1>2019 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></h1>
       <ul>
         <li>Each of three projects produces at least 20% of total revenue.</li>
         <li>Total monthly revenue exceeds $4,000.</li>
       </ul>
       
-      <h1>About The Projects;</h1>
+      <br>
+      <h1>The Projects</h1>
       
       <h4><a href="https://blog.cjtrowbridge.com/2018/09/13/plan-dj-cj/" target="_blank">DJ</a></h4>
       <p>I have owned a DJ comapny for 15 years. I am focusing on setting up two weekly events as well as weddings.</p>
