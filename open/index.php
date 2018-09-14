@@ -50,6 +50,8 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
+      <h1>About The Projects;</h1>
+      
       <h4><a href="https://blog.cjtrowbridge.com/2018/09/13/plan-dj-cj/" target="_blank">DJ</a></h4>
       <p>I have owned a DJ comapny for 15 years. I am focusing on setting up two weekly events as well as weddings.</p>
       
