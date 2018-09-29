@@ -16,7 +16,7 @@ if(file_exists($cacheFile)){
 }
 
 $details = json_decode($data);
-echo '<h1>'.$details->city.', '$details->state.', '.$details->zip.' ('.$details->loc.')</h1>';
+echo '<h1>'.$details->city.', '.$details->state.', '.$details->zip.' ('.$details->loc.')</h1>';
 echo '<pre>';
 var_dump($details);
 echo '</pre>';
