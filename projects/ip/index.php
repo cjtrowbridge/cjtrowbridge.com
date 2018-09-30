@@ -6,9 +6,9 @@ if(isset($_GET['ip'])){
   echo GetUserLocation();
 }
 
-function GetUserLocation($IP = false, $Coordinates = false){
+function GetUserLocation($ip = false, $Coordinates = false){
 
-  if($IP == false){
+  if($ip == false){
     $ip = $_SERVER['REMOTE_ADDR'];
   }
   
