@@ -87,7 +87,7 @@
           <p>I have owned a DJ comapny for 15 years. I've left it on the back burner for the last year, so now I'm focusing on setting up two weekly events as well as monthly weddings.</p>
 
           <h4>Blog</h4>
-          <p>I have a blog which gets a fair deal of traffic related to some niche topics. I have already done some testing for monetization through affiliate programs and seen a surprising amount of success. I intend to expand on this.</p>
+          <p>I have a blog which gets a fair deal of traffic related to some niche topics. I have already done some testing for monetization through affiliate programs and seen a surprising amount of success. I intend to expand on this, including several new niche branded blogs where I will create and share content with affiliate links.</p>
 
           <h4>Bolt Action</h4>
           <p>I will be selling kits of lagbolts with links. These are an excellent solution for anchoring temporary structures under high wind conditions at music and art festivals. They are surprisingly difficult to put together from scratch, requiring a significant amount of research. This affords me an advantage which I can leverage as a product.</p>
