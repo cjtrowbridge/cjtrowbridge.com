@@ -1,10 +1,17 @@
 <?php
 
-echo GetUserLocation();
+if(isset($_GET['ip'])){
+  echo GetUserLocation($_GET['ip']);
+}else{
+  echo GetUserLocation();
+}
 
-function GetUserLocation($Coordinates = false){
+function GetUserLocation($IP = false, $Coordinates = false){
 
-  $ip = $_SERVER['REMOTE_ADDR'];
+  if($IP == false){
+    $ip = $_SERVER['REMOTE_ADDR'];
+  }
+  
   if(!(is_dir('cache'))){
     mkdir('cache');
   }
