@@ -98,24 +98,6 @@ function Burndown($Time, $Past, $Present, $Future){
             <p>The man <?php echo $ManBurnCountdown; ?>!</p>
             <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
             
-            <p>
-              <b>Come Find Me:</b>
-              <a href="http://www.playajoy.org/" target="_blank">Comfort and Joy</a>, 
-              <b>7:00 and Dewey</b>, 
-              <a href="https://en.wikipedia.org/wiki/Burning_Man" target="_blank">Black Rock City</a>, 
-              <a href="https://en.wikipedia.org/wiki/Nevada" target="_blank">Nevada</a>, 
-              <a href="https://en.wikipedia.org/wiki/United_States" target="_blank">United States</a>, 
-              <a href="https://en.wikipedia.org/wiki/North_America" target="_blank">North America</a>, 
-              <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth (Sol 3)</a>, 
-              <a href="https://en.wikipedia.org/wiki/Solar_System" target="_blank">Sol System</a>, 
-              <a href="https://en.wikipedia.org/wiki/Carina–Sagittarius_Arm" target="_blank">Carina–Sagittarius Arm</a>, 
-              <a href="https://en.wikipedia.org/wiki/Milky_Way" target="_blank">Milky Way Galaxy</a>, 
-              <a href="https://en.wikipedia.org/wiki/Local_Group" target="_blank">Local Group</a>, 
-              <a href="https://en.wikipedia.org/wiki/Virgo_Cluster" target="_blank">Virgo Cluster</a>, 
-              <a href="https://en.wikipedia.org/wiki/Laniakea_Supercluster" target="_blank">Laniakea Supercluster</a>,
-              <a href="https://en.wikipedia.org/wiki/Universe" target="_blank">The Universe</a>.
-            </p>
-            
           </div><!--End Card-text-->
         </div><!--End Card-block-->
       </div><!--End Card-->
