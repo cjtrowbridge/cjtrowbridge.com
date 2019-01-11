@@ -59,11 +59,13 @@
       <br>
       <div class="card">
         <div class="card-body">
-          <h1>2019 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></h1>
+          <h1><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">2019 Goals and Progress</a></h1>
           <ul>
             <li>Each of three projects produces at least 20% of total revenue.</li>
-            <li>Total monthly revenue exceeds $4,000.</li>
+            <li>Monthly recurring revenue (MRR) exceeds $4,000.</li>
           </ul>
+          <p>Time Left: <span id="timer"></span></p>
+          <p></p>
         </div><!--/card-body-->
       </div><!--/card-->
       
@@ -71,7 +73,7 @@
       
       <div class="card">
         <div class="card-body">
-          <h1>The Projects <i class="more-info"><a href="https://blog.cjtrowbridge.com/" target="_blank">More Info</a></i></h1>
+          <h1><a href="https://blog.cjtrowbridge.com/" target="_blank">The Projects</a></h1>
 
           <h4>DJ</h4>
           <p>I have owned a DJ comapny for 15 years. I've left it on the back burner for the last year, so now I'm focusing on setting up two weekly events as well as monthly weddings.</p>
