@@ -1,25 +1,4 @@
-<?php
-
-$YearsLeft = round(((599373240+60*60*24*365*78)-time())/(60*60*24*365),1);
-$LifePercentage = round((time()-599373240) / (60*60*24*365*78)*100);
-
-function round_up($number, $precision = 2){
-  $fig = (int) str_pad('1', $precision, '0');
-  return (ceil($number * $fig) / $fig);
-}
-
-function Burndown($Time, $Past, $Present, $Future){
-  $Time = strtotime($Time);
-  if(time() < $Time){
-    return $Future.' in '.ceil( ( $Time - time() ) / (60*60*24) ).' days';
-  }elseif(date('Y-m-d') == date('Y-m-d',$Time)){
-    return $Present.' TODAY';
-  }else{
-    return $Past;
-  }
-}
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -84,9 +63,6 @@ function Burndown($Time, $Past, $Present, $Future){
             <div class="countdown" data-countdown="December 10, 2066 4:34:00"></div>
             <progress class="countdown" data-from="December 28, 1988 20:34:00" data-to="December 10, 2066 4:34:00"></progress>
             
-            <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
-            <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
-            
           </div><!--End Card-text-->
         </div><!--End Card-block-->
       </div><!--End Card-->
@@ -99,16 +75,9 @@ function Burndown($Time, $Past, $Present, $Future){
             
             <h3>Burning Man!</h3>
             
-            <?php 
-            
-            $GatesCountdown      = Burndown('August 25, 2019',   'have opened', 'are opening', 'open');
-            $ManBurnCountdown    = Burndown('August 31, 2019',   'has burned',  'is burning',  'burns');
-            $TempleBurnCountdown = Burndown('September 1, 2019', 'has burned',  'is burning',  'burns');
-            
-            ?>
-            <p>Gates <?php echo $GatesCountdown; ?>!</p>
-            <p>The man <?php echo $ManBurnCountdown; ?>!</p>
-            <p>The temple <?php echo $TempleBurnCountdown; ?>!</p>
+            <p>Gates      <span class="countdown-days" countdown="Aug 25, 2019"></span>!</p>
+            <p>The man    <span class="countdown-days" countdown="Aug 31, 2019"></span>!</p>
+            <p>The temple <span class="countdown-days" countdown="Sep 1, 2019"></span>!</p>
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
