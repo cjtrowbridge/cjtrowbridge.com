@@ -46,7 +46,21 @@ function Burndown($Time, $Past, $Present, $Future){
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
   <link rel="icon" type="image/jpg" href="/cj.jpg">
-  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    img{
+      width: 100%;
+      max-width: 100%;
+      border-radius: 1em;
+    }
+     body{
+      background-color: #F8F8F8;
+      padding-top: 2rem;
+    }
+    progress{
+      width: 100%;
+      display: block;
+    }
+  </style>
 </head>
 <body>
   
