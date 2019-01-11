@@ -1,10 +1,3 @@
-<?php
-
-header('Location: /');
-exit;
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -66,16 +59,6 @@ exit;
       <br>
       <div class="card">
         <div class="card-body">
-          <h1>2018 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></h1>
-          <ul>
-            <li>At least three projects have monthly nonzero revenue numbers.</li>
-          </ul>
-        </div><!--/card-body-->
-      </div><!--/card-->
-      
-      <br>
-      <div class="card">
-        <div class="card-body">
           <h1>2019 Goals <i class="more-info"><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">More Info</a></i></h1>
           <ul>
             <li>Each of three projects produces at least 20% of total revenue.</li>
@@ -98,6 +81,9 @@ exit;
 
           <h4>Bolt Action</h4>
           <p>I will be selling kits of lagbolts with links. These are an excellent solution for anchoring temporary structures under high wind conditions at music and art festivals. They are surprisingly difficult to put together from scratch, requiring a significant amount of research. This affords me an advantage which I can leverage as a product.</p>
+          
+          <h4>Cooooooool</h4>
+          <p>This is a content business focused on affiliate links and display advertising on social media.</p>
           
           <h4>Norcalist</h4>
           <p>This will allow users to search for specific types of weekly events, rather than bars and nightclubs. This is a fundamental advantage over most currently available search products.</p>
