@@ -66,14 +66,12 @@ function Burndown($Time, $Past, $Present, $Future){
         <div class="card-block">
           <div class="card-text">
             
-            <div class="row no-gutters">
-              <div class="col-xs-12 col-md-10">
-                <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
-              </div>
-              <div class="col-xs-12 col-md-2">
-                <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
-              </div>
-            </div>
+            <h4>Life Expectancy</h4>
+            <div class="countdown" data-countdown="December 10, 2066 4:34:00"></div>
+            <progress data-from="December 28, 1988 20:34:00" data-to="December 10, 2066 4:34:00"></progress>
+            
+            <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
+            <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
             
           </div><!--End Card-text-->
         </div><!--End Card-block-->
@@ -183,7 +181,7 @@ function Burndown($Time, $Past, $Present, $Future){
   </div><!--End row-->
 </div><!--End Container-->
   
-
+<script src="https://cjtrowbridge.com/projects/Countdown/countdown.js"></script>
   
 </body>
 </html>
