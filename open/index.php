@@ -65,9 +65,9 @@
             <li>Monthly recurring revenue (MRR) exceeds $4,000.</li>
           </ul>
           <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
-          <progress id="2019GoalProgress" class="countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
+          <progress id="GoalProgress2019" class="countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
           <style>
-            #2019GoalProgress{
+            #GoalProgress2019{
               width: 100%;
               display: block;
             }
