@@ -30,7 +30,9 @@
 <div class="container">
   <div class="row">
     <div class="col-12">
-      <br>
+      <p class="text-center">
+        <a href="/">&lt;&lt; Back To Home Page</a> - <a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/">More Information &gt;&gt;</a>
+      </p>
       <div class="card">
         <div class="card-body">
           <h1><a href="https://blog.cjtrowbridge.com/2018/09/12/open-revenue-dashboard/" target="_blank">2019 Goals and Progress</a></h1>
