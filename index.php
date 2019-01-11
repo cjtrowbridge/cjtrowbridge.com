@@ -68,7 +68,7 @@ function Burndown($Time, $Past, $Present, $Future){
             
             <h4>Life Expectancy</h4>
             <div class="countdown" data-countdown="December 10, 2066 4:34:00"></div>
-            <progress data-from="December 28, 1988 20:34:00" data-to="December 10, 2066 4:34:00"></progress>
+            <progress class="countdown" data-from="December 28, 1988 20:34:00" data-to="December 10, 2066 4:34:00"></progress>
             
             <p>My life expectancy is <?php echo $LifePercentage; ?>% elapsed, with <?php echo $YearsLeft; ?> years left before my return to the void (hopefully).<p>
             <p><progress value="<?php echo $LifePercentage; ?>" max="100"></progress></p>
