@@ -64,7 +64,8 @@
             <li>Each of three projects produces at least 20% of total revenue.</li>
             <li>Monthly recurring revenue (MRR) exceeds $4,000.</li>
           </ul>
-          <p>Time Left: <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
+          <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
+          <progress class="countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
           <p></p>
         </div><!--/card-body-->
       </div><!--/card-->
