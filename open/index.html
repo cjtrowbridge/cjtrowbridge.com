@@ -53,12 +53,6 @@
           <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
           <progress id="GoalProgress2019" class="countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
           <p><b>Current MMR:</b> $<span class="fill_mmr">____.__</span></p>
-          <script>
-            $.get( "/open/mmr.txt", function(data){
-              $(".fill_mmr").html(data);
-              
-            });
-          </script>
           <style>
             #GoalProgress2019{
               width: 100%;
@@ -144,5 +138,13 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <script src="https://cjtrowbridge.com/projects/Countdown/countdown.js"></script>
+  
+  <script>
+    $.get( "/open/mmr.txt", function(data){
+      $(".fill_mmr").html(data);
+
+    });
+  </script>
+          
 </body>
 </html>
