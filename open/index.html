@@ -145,10 +145,11 @@
     $.get( "/open/mmr.txt", function(data){
       $(".fill_mmr").html(data);
       
-      var percent = data / 4000;
+      var p;
+      p = data / 4000;
       
-      $("#MMRProgress2019").attr('value',percent);
-      $("#MMRProgress2019Percent").html(percent);
+      $("#MMRProgress2019").attr('value', p);
+      $("#MMRProgress2019Percent").html(p);
     });
   </script>
           
