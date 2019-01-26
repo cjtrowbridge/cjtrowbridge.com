@@ -52,6 +52,13 @@
           </ul>
           <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
           <progress id="GoalProgress2019" class="countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
+          <p><b>Current MMR:</b> $<span class="fill_mmr">____.__</span></p>
+          <script>
+            $.get( "/open/mmr.txt", function(data){
+              $(".fill_mmr").html(data);
+              
+            });
+          </script>
           <style>
             #GoalProgress2019{
               width: 100%;
