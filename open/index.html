@@ -144,16 +144,16 @@
   <script>
     
     var mmr;
+    var mmrPercent;
     
     $.get( "/open/mmr.txt", function(data){
       window.mmr = data;
       $(".fill_mmr").html(window.mmr);
       
-      var p;
-      p = window.mmr / 4000;
+      window.mmrPercent = window.mmr / 4000;
       
-      $("#MMRProgress2019").attr('value', p);
-      $("#MMRProgress2019Percent").html(p);
+      $("#MMRProgress2019").attr('value', window.mmrPercent);
+      $("#MMRProgress2019Percent").html(window.mmrPercent);
     });
   </script>
           
