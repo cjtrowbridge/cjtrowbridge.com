@@ -31,6 +31,10 @@
     h1:hover i.more-info{
       display: inline;
     }
+    progress{
+      width: 100%;
+      display: block;
+    }
   </style>
   
 </head>
@@ -50,14 +54,10 @@
             <li>Each of three projects produces at least 20% of total revenue.</li>
             <li>Monthly recurring revenue (MRR) exceeds $4,000.</li>
           </ul>
+          
           <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
           <progress id="GoalProgress2019" class="mb-4 countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
-          <style>
-            #GoalProgress2019{
-              width: 100%;
-              display: block;
-            }
-          </style>
+          
           <p><b>Current MMR:</b> $<span class="fill_mmr">____.__</span> (%<span="#MMRProgress2019"></span>)</p>
           <progress id="MMRProgress2019" max="4000"></progress>
           
