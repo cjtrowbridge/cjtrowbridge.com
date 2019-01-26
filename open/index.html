@@ -52,13 +52,15 @@
           </ul>
           <p><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></p>
           <progress id="GoalProgress2019" class="mb-4 countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
-          <p class="mb-4"><b>Current MMR:</b> $<span class="fill_mmr">____.__</span></p>
           <style>
             #GoalProgress2019{
               width: 100%;
               display: block;
             }
           </style>
+          <p><b>Current MMR:</b> $<span class="fill_mmr">____.__</span> (%<span="#MMRProgress2019"></span>)</p>
+          <progress id="MMRProgress2019" max="4000"></progress>
+          
           <div class="container">
             <div class="row">
               <div class="col-md-6 col-12">
@@ -142,7 +144,11 @@
   <script>
     $.get( "/open/mmr.txt", function(data){
       $(".fill_mmr").html(data);
-
+      
+      var percent = data / 4000;
+      
+      $("#MMRProgress2019").attr('value',percent);
+      $("#MMRProgress2019Percent").html(percent);
     });
   </script>
           
