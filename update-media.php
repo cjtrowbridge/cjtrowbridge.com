@@ -18,6 +18,8 @@ function UpdateMedia($URL,$File){
 function UpdateMRR(){
   $File = file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values?alt=json-in-script");
   
+  $File = str_replace("gdata.io.handleScriptLoaded","",$File);
+  
   $Sheet = json_decode($File, true);
   
   $Cells = $Sheet['feed'];
