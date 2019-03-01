@@ -18,14 +18,12 @@ function UpdateMedia($URL,$File){
 function UpdateMRR(){
   $File = file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/2/public/values?alt=json");
   
-  $File = str_replace("gdata.io.handleScriptLoaded","",$File);
-  
   $Sheet = json_decode($File, true);
   
   $Cells = $Sheet['feed']['entry'];
   
   var_dump($Sheet);
-  
+  var_dump($Cells);
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
