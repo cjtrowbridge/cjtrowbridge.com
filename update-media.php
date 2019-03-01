@@ -16,9 +16,9 @@ function UpdateMedia($URL,$File){
 }
 
 function (){
-  $Sheet = file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values?alt=json-in-script");
+  $Sheet = json_decode(file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values?alt=json-in-script"),true);
   
-  $Cells = $Sheet->feed->entry;
+  $Cells = $Sheet->feed(0)->entry;
   
   var_dump($Cells);
 }
