@@ -27,11 +27,13 @@ function UpdateMRR(){
   
   for ($i = 0; $i <= count($Cells); $i++) {
     if($Cells[$i]['$t']=='MRR'){
-      file_put_contents('open/mrr.txt', $Cells[ ($i-1) ]['$t']);
-      echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a></p>';
+      $NewMRR = $Cells[ ($i-1) ]['$t'];
+      file_put_contents('open/mrr.txt', $NewMRR);
+      echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a>: '.$NewMRR.'</p>';
       return;
     }
   }
+  
   echo '<p>Unable to find MRR cell: <a href="open/mrr.txt">open/mrr.txt</a></p>';
   return;
 }
