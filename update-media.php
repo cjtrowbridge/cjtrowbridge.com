@@ -34,3 +34,4 @@ UpdateMedia("https://graph.facebook.com/643280183/picture?width=9999&height=9999
 UpdateMedia("https://graph.facebook.com/1227603033/picture?width=9999&height=9999", "img/zach.jpg");
 UpdateMedia("https://graph.facebook.com/797969965/picture?width=9999&height=9999", "img/jenny.jpg");
 
+UpdateMRR();
