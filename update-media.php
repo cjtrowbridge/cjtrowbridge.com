@@ -27,7 +27,7 @@ function UpdateMRR(){
   
   for ($i = 0; $i <= count($Cells); $i++) {
     if($Cells[$i]['$t']=='MRR'){
-      return $Cells[ ($i-1) ]['$t'];
+      file_put_contents('open/mrr.txt', $Cells[ ($i-1) ]['$t']);
     }
   }
   echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a></p>';
