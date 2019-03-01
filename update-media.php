@@ -30,6 +30,7 @@ function UpdateMRR(){
       return $Cells[ ($i-1) ]['$t'];
     }
   }
+  echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a></p>';
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
