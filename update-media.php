@@ -17,7 +17,7 @@ function UpdateMedia($URL,$File){
 
 function UpdateMRR(){
   if(date('Y-m-d H',filemtime( 'open/mrr.txt' ))==date('Y-m-d H')){
-    echo '<p>Too soon for: <a href="'.$File.'">'.$File.'</a></p>';
+    echo '<p>Too soon for: <a href="open/mrr.txt">open/mrr.txt</a></p>';
     return false;
   }
   
