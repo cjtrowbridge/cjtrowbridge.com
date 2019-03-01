@@ -20,7 +20,7 @@ function UpdateMRR(){
   
   $Sheet = json_decode($File, true);
   
-  $Cells = $Sheet['feed']['entry'];
+  $Cells = $Sheet['feed'];
   
   var_dump($Cells);
 }
