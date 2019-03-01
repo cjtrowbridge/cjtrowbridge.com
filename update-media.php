@@ -22,8 +22,6 @@ function UpdateMRR(){
   
   $Cells = $Sheet['feed']['entry'];
   
-  var_dump($File);
-  var_dump($Sheet);
   var_dump($Cells);
 }
 
