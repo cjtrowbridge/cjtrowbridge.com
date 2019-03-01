@@ -28,9 +28,12 @@ function UpdateMRR(){
   for ($i = 0; $i <= count($Cells); $i++) {
     if($Cells[$i]['$t']=='MRR'){
       file_put_contents('open/mrr.txt', $Cells[ ($i-1) ]['$t']);
+      echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a></p>';
+      return;
     }
   }
-  echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a></p>';
+  echo '<p>Unable to find MRR cell: <a href="open/mrr.txt">open/mrr.txt</a></p>';
+  return;
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
