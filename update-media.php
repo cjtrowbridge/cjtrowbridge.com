@@ -15,7 +15,7 @@ function UpdateMedia($URL,$File){
   echo '<p>Updated: <a href="'.$File.'">'.$File.'</a></p>';
 }
 
-function (){
+function UpdateMRR(){
   $File = file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values?alt=json-in-script");
   
   $Sheet = json_decode($File, true);
