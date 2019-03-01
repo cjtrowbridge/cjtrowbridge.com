@@ -22,7 +22,7 @@ function UpdateMRR(){
   
   $Cells = $Sheet['feed'];
   
-  var_dump($File);
+  var_dump($Sheet);
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
