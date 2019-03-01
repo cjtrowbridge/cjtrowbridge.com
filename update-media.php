@@ -35,6 +35,7 @@ function UpdateMRR(){
   }
   
   echo '<p>Unable to find MRR cell: <a href="open/mrr.txt">open/mrr.txt</a></p>';
+  var_dump($Cells);
   return;
 }
 
