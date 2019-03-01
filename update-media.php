@@ -26,7 +26,7 @@ function UpdateMRR(){
   $Cells = $Sheet['feed']['entry'];
   
   for ($i = 0; $i <= count($Cells); $i++) {
-    if($Cells[$i]['gsx$dj']['$t']=='MRR'){
+    if($Cells[$i]['$t']=='MRR'){
       $NewMRR = $Cells[ ($i-1) ]['gsx$dj']['$t'];
       file_put_contents('open/mrr.txt', $NewMRR);
       echo '<p>Updated: <a href="open/mrr.txt">open/mrr.txt</a>: '.$NewMRR.'</p>';
