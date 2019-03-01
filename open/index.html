@@ -149,7 +149,7 @@
     var mrrPercent;
     
     $.get( "/open/mrr.txt", function(data){
-      window.mmr = data;
+      window.mrr = data;
       $(".fill_mrr").html(window.mrr);
       
       window.mrrPercent = window.mrr / 4000;
