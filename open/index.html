@@ -156,7 +156,7 @@
       window.mrr = data;
       $(".fill_mrr").html(window.mrr);
       
-      window.mrrPercent = window.mrr / 1000;
+      window.mrrPercent = window.mrr / 1000 * 100;
       
       $("#MRRProgress2019").attr('value', data );
       $("#MRRProgress2019Percent").text( window.mrrPercent.toString() );
