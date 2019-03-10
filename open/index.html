@@ -52,13 +52,13 @@
           <h1>2019 Goals and Progress</h1>
           <ul>
             <li>Each of three projects produces at least 20% of total revenue.</li>
-            <li>Monthly recurring revenue (MRR) exceeds $4,000.</li>
+            <li>Monthly recurring revenue (MRR) from these <b>new</b> projects exceeds $1,000.</li>
           </ul>
           
           <div><b>Remaining Time:</b> <span class="countdown" data-countdown="Dec 31, 2019 23:59:59"></span></div>
           <progress id="GoalProgress2019" class="mb-1 countdown" data-from="Jan 1, 2019 00:00:01" data-to="Dec 31, 2019 23:59:59"></progress>
           
-          <progress id="MRRProgress2019" max="4000"></progress>
+          <progress id="MRRProgress2019" max="1000"></progress>
           <div><b>Current MRR:</b> $<span class="fill_mrr">____.__</span> (<span id="MRRProgress2019Percent"></span>% Complete)</div>
           
           <div class="container">
@@ -156,7 +156,7 @@
       window.mrr = data;
       $(".fill_mrr").html(window.mrr);
       
-      window.mrrPercent = window.mrr / 4000;
+      window.mrrPercent = window.mrr / 1000;
       
       $("#MRRProgress2019").attr('value', data );
       $("#MRRProgress2019Percent").text( window.mrrPercent.toString() );
