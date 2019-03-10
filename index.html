@@ -74,7 +74,7 @@
             </p>
             <p>
               <b>MRR Progress:</b>
-              <progress value="0" max="4000"></progress>
+              <progress id="mrr" value="0" max="4000"></progress>
             </p>
             <a href="https://cjtrowbridge.com/open/" class="btn btn-block btn-success">View The Progress Dashboard</a>
           </div><!--End Card-text-->
@@ -148,6 +148,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 <script src="https://cjtrowbridge.com/projects/Countdown/countdown.js"></script>
+  
+<script>
+  $.get( "/open/mrr.txt", function(data){
+    $("progress#mrr").attr('value', data );
+  });
+</script>
   
 </body>
 </html>
