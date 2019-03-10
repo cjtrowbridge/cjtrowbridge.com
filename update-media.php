@@ -39,14 +39,14 @@ function UpdateMRR(){
   return;
 }
 
-function UpdateMRR2(){
-  $File = file_get_contents('https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values/cre1l');
-  $Start = "<gsx:thismonthtotal>";
+function UpdateMRRTwo(){
+  $File = file_get_contents("https://spreadsheets.google.com/feeds/list/1QiHfopOcjt34zO2PIvi4EpiD7ukdQ-7e4a5P9tYJIcs/od6/public/values/cre1l");
+  echo $File;
+  $Start = "<gsx:total>";
   $Position = strpos($File, $Start) + strlen($Start);
-  $Substring = susbtr($File,$Start);
-  
-  
-  echo $Substring;
+  $Substring = substr($File,$Start);
+
+  echo "MMR2: ".$Substring;
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
@@ -59,4 +59,4 @@ UpdateMedia("https://graph.facebook.com/1227603033/picture?width=9999&height=999
 UpdateMedia("https://graph.facebook.com/797969965/picture?width=9999&height=9999",  "img/jenny.jpg");
 
 UpdateMRR();
-UpdateMRR2();
+UpdateMRRTwo();
