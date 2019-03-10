@@ -45,6 +45,8 @@ function UpdateMRR2(){
   $Position = strpos($File, $Start) + strlen($Start);
   $Substring = susbtr($File,$Start);
   
+  
+  echo $Substring;
 }
 
 UpdateMedia("https://docs.google.com/spreadsheets/d/e/2PACX-1vQWKMX0Yxi29TBATsQTDqcaPClYdnswQEExZwBO712WKwb9Ajnlq0DJsEcQUwxJNsgDORft9zw2gkqT/pubchart?oid=628337542&format=image", "img/revenue_mix.jpg");
