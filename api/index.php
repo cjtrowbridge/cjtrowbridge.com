@@ -12,7 +12,8 @@
 require('Config.php');
 
 if(isset($_GET['countTodoToday'])){
-  //$Account = file_get_contents('https://api.trello.com/1/members/me/boards?key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
+  $Account = file_get_contents('https://api.trello.com/1/members/me/boards?key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
   $Todo = file_get_contents('https://api.trello.com/1/members/me/boards/'.$TrelloTodoBoardID.'/?key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
+  echo $Account;
   echo $Todo;
 }
