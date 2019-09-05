@@ -52,7 +52,7 @@ function CountResults($URL,$Link=''){
     echo '</pre>';
   }
   
-  if(isset($_GET['withLink']){
+  if(isset($_GET['withLink'])){
     return '<a href="'.$Link.'" target="_blank">'.count($Data).'</a>';
   }else{
     return count($Data);
