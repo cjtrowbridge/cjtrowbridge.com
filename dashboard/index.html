@@ -47,7 +47,12 @@
         <div class="card-body">
           <div class="card-text">
             <h4>Remaining Tasks Today</h4>
-            <div class="populateFromAPI" data-route="/api/?countTodo=today"></div>
+            <div class="populateFromAPI todoToday" data-ideal="0" data-route="/api/?countTodo=today"></div>
+            <style>
+              .todoToday{
+                font-size: 2rem;
+              }
+            </style>
           </div><!--End Card-text-->
         </div><!--End Card-body-->
       </div><!--End Card-->
@@ -96,11 +101,28 @@
     $.get(route, function(data){
       console.log('Returned: '+data);
       parent.html(''+data);
+      parent.data('value',data);
+      
+      if(parent.data('ideal') !== null){
+        if(parent.data('ideal')==data){
+          parent.addClass('dataIdeal');
+        }else{
+          parent.addClass('dataNotIdeal');
+        }
+      }
     });
   });
   
   
 </script>
+<style>
+  .dataIdeal{
+    color: limegreen;
+  }
+  .dataNotIdeal{
+    color: orangered;
+  }
+</style>
   
 </body>
 </html>
