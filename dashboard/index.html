@@ -43,9 +43,16 @@
     
     <div class="col-12"><!--Begin Main Column-->
       
+      <div class="card my-4 col-md-6 col-12">
+        <div class="card-body">
+          <div class="card-text">
+            <h4>Remaining Tasks Today</h4>
+            <div class="populateFromAPI" data-route="/api/countTodo=today"></div>
+          </div><!--End Card-text-->
+        </div><!--End Card-body-->
+      </div><!--End Card-->
       
-      
-      <div class="card my-4">
+      <div class="card my-4 col-md-6 col-12">
         <div class="card-body">
           <div class="card-text">
             <h4>Remaining Life Expectancy</h4>
@@ -54,6 +61,7 @@
           </div><!--End Card-text-->
         </div><!--End Card-body-->
       </div><!--End Card-->
+      
       
     </div><!--End Main Column-->
     
@@ -78,9 +86,16 @@
 <script src="https://cjtrowbridge.com/projects/Countdown/countdown.js"></script>
   
 <script>
-  $.get( "/open/mrr.txt", function(data){
-    $("progress#mrr").attr('value', data );
+  
+  
+  $(".populateFromAPI").each(function(){
+    var route = $(this).data("route");
+    $.get(route, function(data){
+      $(this).html(data);
+    });
   });
+  
+  
 </script>
   
 </body>
