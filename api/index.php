@@ -30,9 +30,8 @@ foreach($RequestSegments as $RequestSegment){
     $Route[]=$RequestSegment;
   }
 }
-$this->Route = $Route;
 //Clean up these variables
-unset($Route, $RequestSegments, $RequestSegment);
+unset($RequestSegments, $RequestSegment);
 
 function Route($Index){
   if(isset($Route[$Index])){
