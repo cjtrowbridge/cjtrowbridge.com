@@ -14,19 +14,19 @@ require('Config.php');
 if(isset($_GET['countTodo'])){
   switch(strtolower($_GET['countTodo'])){
     case 'today':
-      echo CountResults('https://api.trello.com/1/lists/59d2a3ff6aa56bebcf59326c/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
+      echo CountResults('https://api.trello.com/1/lists/59d2a3ff6aa56bebcf59326c/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken,'https://trello.com/b/L0z2c79k/to-do');
       break;
     case 'thisweek':
-      echo CountResults('https://api.trello.com/1/lists/5b208152a17ff1f420290902/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
+      echo CountResults('https://api.trello.com/1/lists/5b208152a17ff1f420290902/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken,'https://trello.com/b/L0z2c79k/to-do');
       break;
     case 'nextweek':
-      echo CountResults('https://api.trello.com/1/lists/5d7085ac61b4181c42204c68/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken);
+      echo CountResults('https://api.trello.com/1/lists/5d7085ac61b4181c42204c68/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken,'https://trello.com/b/L0z2c79k/to-do');
       break;
       
   }
 }
 
-function CountResults($URL){
+function CountResults($URL,$Link=''){
   if(
     isset($_GET['debug']) && 
     ($_GET['debug']==$TrelloAPIKey)
@@ -52,5 +52,9 @@ function CountResults($URL){
     echo '</pre>';
   }
   
-  return count($Data);
+  if(isset($_GET['withLink']){
+    return '<a href="'.$Link.'" target="_blank">'.count($Data).'</a>';
+  }else{
+    return count($Data);
+  }
 }
