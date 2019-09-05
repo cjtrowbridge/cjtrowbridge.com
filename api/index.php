@@ -23,6 +23,6 @@ if(isset($_GET['countTodoToday'])){
   $TodoThisweek = json_decode($TodoThisweek,true);
   $TodoNextweek = json_decode($TodoNextweek,true);
   
-  var_dump($TodoToday);
+  echo count($TodoToday);
   
 }
