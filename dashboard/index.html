@@ -89,8 +89,11 @@
   
   
   $(".populateFromAPI").each(function(){
+    $(this).html('Fetching...');
     var route = $(this).data("route");
+    console.log('Fetching Route: '+route);
     $.get(route, function(data){
+      console.log('Returned: '+Data)
       $(this).html(data);
     });
   });
