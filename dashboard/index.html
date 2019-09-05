@@ -94,7 +94,7 @@
     console.log('Fetching Route: '+route);
     $.get(route, function(data){
       console.log('Returned: '+data);
-      $(this).html(data);
+      $(this).html(''+data);
     });
   });
   
