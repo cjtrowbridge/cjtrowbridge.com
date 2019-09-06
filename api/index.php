@@ -26,12 +26,12 @@ if(isset($_GET['countTodo'])){
   }
   exit;
 }
-if(isset($_GET['getMRR'])){
+if(isset($_GET['getMR'])){
   $Data = json_decode(file_get_contents('https://sheets.googleapis.com/v4/spreadsheets/1MQ7ggLYif7iCO3k6fOnb7vlvpFfwMRkWGvqGGy_jRhc/values/B1?key='.$GoogleSheetsAPIKey),true);
   echo $Data['values'][0][0];
   exit;
 }
-if(isset($_GET['getMRRGoal'])){
+if(isset($_GET['getMRGoal'])){
   echo '1000.00';
   exit;
 }
