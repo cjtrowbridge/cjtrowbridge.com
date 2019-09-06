@@ -26,7 +26,8 @@ if(isset($_GET['countTodo'])){
   }
 }
 if(isset($_GET['getMRR'])){
-  echo file_get_contents('https://sheets.googleapis.com/v4/spreadsheets/1MQ7ggLYif7iCO3k6fOnb7vlvpFfwMRkWGvqGGy_jRhc/values/B1?key='.$GoogleSheetsAPIKey);
+  $Data = json_decode(file_get_contents('https://sheets.googleapis.com/v4/spreadsheets/1MQ7ggLYif7iCO3k6fOnb7vlvpFfwMRkWGvqGGy_jRhc/values/B1?key='.$GoogleSheetsAPIKey),true);
+  echo $Data['values'][0];
 }
 
 function CountResults($URL,$Link=''){
