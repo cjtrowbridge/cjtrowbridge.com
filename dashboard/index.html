@@ -64,10 +64,12 @@
         <div class="card-body">
           <div class="card-text">
             <h4>Remaining Tasks Today</h4>
-            <span class="populateFromAPI MRR" data-ideal="1000.00" data-route="/api/?MRR"></span> /
-            <span class="populateFromAPI MRR" data-ideal="1000.00" data-route="/api/?MRRGoal"></span>
+            <div class="MRR">
+              <span class="populateFromAPI" data-ideal="1000.00" data-route="/api/?getMRR"></span> /
+              <span class="populateFromAPI" data-ideal="1000.00" data-route="/api/?getMRRGoal"></span>
+            </div>
             <style>
-              .MRR{
+              div.MRR{
                 font-size: 2rem;
                 text-align: center;
               }
