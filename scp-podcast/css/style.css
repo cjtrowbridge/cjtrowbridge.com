@@ -1,0 +1,21 @@
+.podcastColumn h2{
+  margin: 0 0 1em 0; 
+}
+.podcastContainer img{
+  float: left;
+  width: 4em;
+  margin: 0 .5em .5em 0;
+}
+.podcastContainer{
+  clear: both;
+  margin-top: 1em;
+  border: 1px solid #c7c7c7;
+  border-radius: 1em;
+  padding: 1em;
+}
+.clearer{
+ clear: both; 
+}
+audio{
+ max-width: 100%; 
+}
