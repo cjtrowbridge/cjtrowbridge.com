@@ -22,7 +22,6 @@ if(isset($_GET['countTodo'])){
     case 'nextweek':
       echo CountResults('https://api.trello.com/1/lists/5d7085ac61b4181c42204c68/cards?fields=name&key='.$TrelloAPIKey.'&token='.$TrelloAPIToken,'https://trello.com/b/L0z2c79k/to-do');
       break;
-      
   }
   exit;
 }
@@ -37,34 +36,34 @@ if(isset($_GET['getMRGoal'])){
 }
 
 function CountResults($URL,$Link=''){
-  if(
+  /*if(
     isset($_GET['debug']) && 
     ($_GET['debug']==$TrelloAPIKey)
   ){
     echo '<pre>';
     echo '<a href="'.$URL.'" target="_blank">'.$URL.'</a>';
-  }
+  }*/
 
   $Returned = file_get_contents($URL);
-  if(
+  /*if(
     isset($_GET['debug']) && 
     ($_GET['debug']==$TrelloAPIKey)
   ){
     var_dump($Returned);
-  }
+  }*/
   
   $Data = json_decode($Returned,true);
-  if(
+  /*if(
     isset($_GET['debug']) && 
     ($_GET['debug']==$TrelloAPIKey)
   ){
     var_dump($Data);
     echo '</pre>';
-  }
+  }*/
   
-  if(isset($_GET['withLink'])){
-    return '<a href="'.$Link.'" target="_blank">'.count($Data).'</a>';
-  }else{
+  //if(isset($_GET['withLink'])){
+    //return '<a href="'.$Link.'" target="_blank">'.count($Data).'</a>';
+  //}else{
     return count($Data);
-  }
+  //}
 }
