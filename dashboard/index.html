@@ -82,19 +82,23 @@
           <div class="card-body">
             <div class="card-text">
               <h4>Remaining Tasks</h4>
-              <table>
-                <tr>
-                  <td>Today</td>
-                  <td><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=today&withLink"></span></td>
-                </tr>
-                <tr>
-                  <td>This Week</td>
-                  <td><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=thisweek&withLink"></span></td>
-                </tr>
-                <tr>
-                  <td>Next Week</td>
-                  <td><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=nextweek&withLink"></span></td>
-                </tr>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Today</th>
+                    <th><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=today"></span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>This Week</td>
+                    <td><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=thisweek"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Next Week</td>
+                    <td><span class="populateFromAPI todo" data-ideal="0" data-route="/api/?countTodo=nextweek"></span></td>
+                  </tr>
+                </tbody>
               </table>
               <style>
                 .todo{
