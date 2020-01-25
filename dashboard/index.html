@@ -115,7 +115,7 @@
                 $<span class="populateFromAPI" data-ideal="1000.00" data-route="/api/?getMR"></span> /
                 <span class="populateFromAPI" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
               </div>
-              <p><b>MRR Progress:</b><progress id="mrr" value="0" max="1000"></progress></p>
+              <p><b>MRR Progress:</b><progress id="mrrProgress" value="0" max="1000"></progress></p>
               
               <style>
                 div.MRR{
@@ -160,6 +160,9 @@
         }
       }
     });
+  });
+  $.get( "/api/?getMR", function(data){
+    $("progress#mrrProgress").attr('value', data );
   });
   
   
