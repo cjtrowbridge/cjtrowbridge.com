@@ -182,11 +182,11 @@
       var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2)/100);
       
       if(Number.isNaN(vMRRCompletion)){
-        $("#MRRCompletion").value(vMRRCompletion);
+        $("#MRRCompletion").text(vMRRCompletion);
       }
       
       if(Number.isNaN(TimeCompletion)){
-        $("#TimeCompletion").value(TimeCompletion);
+        $("#TimeCompletion").text(TimeCompletion);
       }
       
     });
