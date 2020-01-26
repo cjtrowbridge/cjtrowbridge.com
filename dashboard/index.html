@@ -122,16 +122,16 @@
                 </thead>
                 <tbody>
                   <tr>
+                    <td>Time:</td>
+                    <td><span id="TimeCompletion"></span>%</td>
+                  </tr>
+                  <tr>
                     <td>Revenue:</td>
                     <td>
                       $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
                       <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
                       (<span id="MRRCompletion"></span>%)
                     </td>
-                  </tr>
-                  <tr>
-                    <td>Time:</td>
-                    <td><span id="TimeCompletion"></span>%</td>
                   </tr>
                 </tbody>
               </table>
@@ -182,10 +182,10 @@
       }
       
       
-      var TimeProgress   = $("#TimeProgress").data('value');
-      var TimeGoal       = $("#TimeProgress").data('max');
-      var TimeCompletion = (Math.round((TimeProgress / TimeGoal)*100,2)/100);
-      console.log("Time: "+TimeProgress+"+"+TimeGoal+"="+TimeCompletion);
+      var vTimeProgress   = $("#TimeProgress").data('value');
+      var vTimeGoal       = $("#TimeProgress").data('max');
+      var vTimeCompletion = (Math.round((vTimeProgress / vTimeGoal)*100,2)/100);
+      console.log("Time: "+vTimeProgress+"+"+vTimeGoal+"="+vTimeCompletion);
       
       var vMRRProgress   = $("#MRProgress").data('value');
       var vMRRGoal       = $("#MRGoal"    ).data('value');
@@ -196,8 +196,8 @@
         $("#MRRCompletion").text(vMRRCompletion);
       }
       
-      if(!(Number.isNaN(TimeCompletion))){
-        $("#TimeCompletion").text(TimeCompletion);
+      if(!(Number.isNaN(vTimeCompletion))){
+        $("#TimeCompletion").text(vTimeCompletion);
       }
       
     });
