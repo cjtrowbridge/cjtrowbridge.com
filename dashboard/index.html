@@ -110,7 +110,7 @@
               <h4>Open Startup Challenge</h4>
               <p>As part of Pieter Levels' Open Startup Challenge, I have one year to reach my monthly recurring revenue (MRR) goal by building <a href="http://open-startup.com/" target="_blank">open startups</a>.</p>
               
-              <p><b>Time Left:</b><progress class="countdown" data-from="January 1, 2020 01:01:01" data-to="December 31, 2020 23:59:59"></progress></p>
+              <p><b>Time Left:</b><progress id="" class="countdown" data-from="January 1, 2020 01:01:01" data-to="December 31, 2020 23:59:59"></progress></p>
               <p><b>MRR Progress:</b><progress id="mrrProgress" value="0" max="1000"></progress></p>
               
               <table class="table">
@@ -182,8 +182,8 @@
       }
       
       
-      var TimeProgress   = $("#MRProgress").data('value');
-      var TimeGoal       = $("#MRGoal"    ).data('max');
+      var TimeProgress   = $("progress#TimeProgress").data('value');
+      var TimeGoal       = $("progress#TimeProgress").data('max');
       var TimeCompletion = (Math.round((TimeProgress / TimeGoal)*100,2)/100);
       console.log("Time: "+TimeProgress+"+"+TimeGoal+"="+TimeCompletion);
       
