@@ -182,8 +182,8 @@
       }
       
       
-      var TimeProgress   = $("progress#TimeProgress").data('value');
-      var TimeGoal       = $("progress#TimeProgress").data('max');
+      var TimeProgress   = $("#TimeProgress").data('value');
+      var TimeGoal       = $("#TimeProgress").data('max');
       var TimeCompletion = (Math.round((TimeProgress / TimeGoal)*100,2)/100);
       console.log("Time: "+TimeProgress+"+"+TimeGoal+"="+TimeCompletion);
       
