@@ -113,6 +113,9 @@
               <p><b>Time Left:</b><progress id="TimeProgress" class="countdown" data-from="January 1, 2020 01:01:01" data-to="December 31, 2020 23:59:59"></progress></p>
               <p><b>MRR Progress:</b><progress id="mrrProgress" value="0" max="1000"></progress></p>
               
+              $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
+              <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
+              
               <table class="table">
                 <thead>
                   <tr>
@@ -128,10 +131,6 @@
                   <tr>
                     <td>Revenue:</td>
                     <td>
-                      <!--
-                      $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
-                      <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
-                      -->
                       <span id="MRRCompletion"></span>%
                     </td>
                   </tr>
