@@ -192,7 +192,7 @@
   function updateTimeProgress(){
     var vTimeProgress   = $("#TimeProgress").attr('value');
     var vTimeGoal       = $("#TimeProgress").attr('max');
-    var vTimeCompletion = (Math.round((vTimeProgress / vTimeGoal)*100,2)/100);
+    var vTimeCompletion = (Math.round((vTimeProgress / vTimeGoal)*100,2));
     console.log("Time: "+vTimeProgress+"+"+vTimeGoal+"="+vTimeCompletion);
     if(!(Number.isNaN(vTimeCompletion))){
       $("#TimeCompletion").text(vTimeCompletion);
@@ -203,7 +203,7 @@
   function updateMRRProgress(){
     var vMRRProgress   = $("#MRProgress").data('value');
     var vMRRGoal       = $("#MRGoal"    ).data('value');
-    var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2)/100);
+    var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2));
     console.log("MRR: "+vMRRProgress+"+"+vMRRGoal+"="+vMRRCompletion);
     if(!(Number.isNaN(vMRRCompletion))){
       $("#MRRCompletion").text(vMRRCompletion);
