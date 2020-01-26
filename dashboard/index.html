@@ -113,18 +113,28 @@
               <p><b>Time Left:</b><progress class="countdown" data-from="January 1, 2020 01:01:01" data-to="December 31, 2020 23:59:59"></progress></p>
               <p><b>MRR Progress:</b><progress id="mrrProgress" value="0" max="1000"></progress></p>
               
-              <div class="MRRMetrics">
-                
-                <p>
-                  Revenue: $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
-                  <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
-                  (<span id="MRRCompletion"></span>%)
-                </p>
-                <p>
-                  Time: 
-                  (<span id="TimeCompletion"></span>%)
-                </p>
-              </div>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Goal</th>
+                    <th>Progress</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Revenue:</td>
+                    <td>
+                      $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
+                      <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
+                      (<span id="MRRCompletion"></span>%)
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Time:</td>
+                    <td><span id="TimeCompletion"></span>%</td>
+                  </tr>
+                </tbody>
+              </table>
               
               <style>
                 .MRRMetrics{
@@ -181,11 +191,11 @@
       var vMRRGoal       = $("#MRGoal"    ).data('value');
       var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2)/100);
       
-      if(Number.isNaN(vMRRCompletion)){
+      if(!(Number.isNaN(vMRRCompletion))){
         $("#MRRCompletion").text(vMRRCompletion);
       }
       
-      if(Number.isNaN(TimeCompletion)){
+      if(!(Number.isNaN(TimeCompletion))){
         $("#TimeCompletion").text(TimeCompletion);
       }
       
