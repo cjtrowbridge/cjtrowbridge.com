@@ -212,7 +212,7 @@
       clearInterval(intervalMRRProgressUpdate);
       
       var time = $("#TimeCompletion").text();
-      if (time>vMRRCompletion){
+      if (time>=vMRRCompletion){
         $("#MRRStatus").html('<span style="color: red;">Behind</span>');
       }else{
         $("#MRRStatus").html('<span style="color: green;">On Track</span>');
