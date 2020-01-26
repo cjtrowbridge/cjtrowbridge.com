@@ -182,8 +182,8 @@
       }
       
       
-      var vTimeProgress   = $("#TimeProgress").data('value');
-      var vTimeGoal       = $("#TimeProgress").data('max');
+      var vTimeProgress   = $("#TimeProgress").attr('value');
+      var vTimeGoal       = $("#TimeProgress").attr('max');
       var vTimeCompletion = (Math.round((vTimeProgress / vTimeGoal)*100,2)/100);
       console.log("Time: "+vTimeProgress+"+"+vTimeGoal+"="+vTimeCompletion);
       
