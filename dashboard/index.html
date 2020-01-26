@@ -111,15 +111,22 @@
               <p>As part of Pieter Levels' Open Startup Challenge, I have one year to reach my monthly recurring revenue (MRR) goal by building <a href="http://open-startup.com/" target="_blank">open startups</a>.</p>
               
               <p><b>Time Left:</b><progress class="countdown" data-from="January 1, 2020 01:01:01" data-to="December 31, 2020 23:59:59"></progress></p>
-              <div class="MRR">
-                $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
-                 <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
-              </div>
               <p><b>MRR Progress:</b><progress id="mrrProgress" value="0" max="1000"></progress></p>
               
+              <div class="MRRMetrics">
+                
+                <p>
+                  Revenue: $<span class="populateFromAPI" id="MRProgress" data-ideal="1000.00" data-route="/api/?getMR"></span> /
+                  <span class="populateFromAPI" id="MRGoal" data-ideal="1000.00" data-route="/api/?getMRGoal"></span>
+                  (<span id="MRRCompletion"></span>%)
+                </p>
+                <p>
+                  Time: 
+                </p>
+              </div>
+              
               <style>
-                div.MRR{
-                  font-size: 2rem;
+                div.MRRMetrics{
                   text-align: center;
                 }
               </style>
@@ -164,7 +171,9 @@
       var goal     = $("#MRGoal"    ).data('value');
       var completion = (Math.round((progress / goal)*100,2)/100);
       
-      alert(progress + " " + goal + "=" + completion);
+      if(Number.isNaN(completion))}
+        $("#MRRCompletion").value(completion);
+      }
       
     });
   });
