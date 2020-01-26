@@ -122,12 +122,16 @@
                 </p>
                 <p>
                   Time: 
+                  (<span id="TimeCompletion"></span>%)
                 </p>
               </div>
               
               <style>
-                div.MRRMetrics{
+                .MRRMetrics{
                   text-align: center;
+                }
+                .MRRCompletion{
+                  font-weight: bold;
                 }
               </style>
             </div><!--End Card-text-->
@@ -167,12 +171,22 @@
         }
       }
       
-      var progress = $("#MRProgress").data('value');
-      var goal     = $("#MRGoal"    ).data('value');
-      var completion = (Math.round((progress / goal)*100,2)/100);
       
-      if(Number.isNaN(completion)){
-        $("#MRRCompletion").value(completion);
+      var TimeProgress   = $("#MRProgress").data('value');
+      var TimeGoal       = $("#MRGoal"    ).data('max');
+      var TimeCompletion = (Math.round((TimeProgress / TimeGoal)*100,2)/100);
+      
+      
+      var vMRRProgress   = $("#MRProgress").data('value');
+      var vMRRGoal       = $("#MRGoal"    ).data('value');
+      var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2)/100);
+      
+      if(Number.isNaN(vMRRCompletion)){
+        $("#MRRCompletion").value(vMRRCompletion);
+      }
+      
+      if(Number.isNaN(TimeCompletion)){
+        $("#TimeCompletion").value(TimeCompletion);
       }
       
     });
