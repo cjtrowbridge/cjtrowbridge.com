@@ -139,6 +139,8 @@
                 </tbody>
               </table>
               
+              <p style="text-align: center; font-size: 1.5rem; font-weight: bold;" id="MRRStatus"></p>
+              
               <style>
                 .MRRMetrics{
                   text-align: center;
@@ -208,6 +210,13 @@
     if(!(Number.isNaN(vMRRCompletion))){
       $("#MRRCompletion").text(vMRRCompletion);
       clearInterval(intervalMRRProgressUpdate);
+      
+      var time = $("#TimeCompletion").text();
+      if (time>vMRRCompletion){
+        $("#MRRStatus").html('<span style="color: red;">Behind</span>');
+      }else{
+        $("#MRRStatus").html('<span style="color: green;">On Track</span>');
+      }
     }
   }
   
