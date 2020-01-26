@@ -180,19 +180,12 @@
           parent.addClass('dataNotIdeal');
         }
       }
-      
-      setTimeout(function(){
-        updateProgress();
-      },3000);
-      
     });
   });
   $.get( "/api/?getMR", function(data){
     $("progress#mrrProgress").attr('value', data );
-    
-    
-    
   });
+  
   function updateTimeProgress(){
     var vTimeProgress   = $("#TimeProgress").attr('value');
     var vTimeGoal       = $("#TimeProgress").attr('max');
