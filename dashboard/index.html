@@ -193,25 +193,30 @@
     
     
   });
-  function updateProgress(){
+  function updateTimeProgress(){
     var vTimeProgress   = $("#TimeProgress").attr('value');
     var vTimeGoal       = $("#TimeProgress").attr('max');
     var vTimeCompletion = (Math.round((vTimeProgress / vTimeGoal)*100,2)/100);
     console.log("Time: "+vTimeProgress+"+"+vTimeGoal+"="+vTimeCompletion);
-
+    if(!(Number.isNaN(vTimeCompletion))){
+      $("#TimeCompletion").text(vTimeCompletion);
+      clearInterval(intervalTimeProgressUpdate);
+    }
+  }
+  
+  function updateMRRProgress(){
     var vMRRProgress   = $("#MRProgress").data('value');
     var vMRRGoal       = $("#MRGoal"    ).data('value');
     var vMRRCompletion = (Math.round((vMRRProgress / vMRRGoal)*100,2)/100);
     console.log("MRR: "+vMRRProgress+"+"+vMRRGoal+"="+vMRRCompletion);
-
-    if(!(Number.isNaN(vTimeCompletion))){
-      $("#TimeCompletion").text(vTimeCompletion);
-    }
-
     if(!(Number.isNaN(vMRRCompletion))){
       $("#MRRCompletion").text(vMRRCompletion);
+      clearInterval(intervalMRRProgressUpdate);
     }
   }
+  
+  var intervalMRRProgressUpdate  = setInterval(updateMRRProgress,  1000);
+  var intervalTimeProgressUpdate = setInterval(updateTimeProgress, 1000);
   
   
 </script>
