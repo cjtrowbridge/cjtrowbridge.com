@@ -44,3 +44,14 @@ UpdateMedia("https://graph.facebook.com/1227603033/picture?width=9999&height=999
 UpdateMedia("https://graph.facebook.com/797969965/picture?width=9999&height=9999",  "img/jenny.jpg");
 
 UpdateMRR();
+
+if(file_exists('Config.php')){
+  include('Config.php');
+  global $Config;
+  foreach($Config as $Media){
+    UpdateMedia(
+      $Media['Source'],
+      $Media['Destination']
+    );
+  }
+}
