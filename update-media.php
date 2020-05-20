@@ -54,4 +54,6 @@ if(file_exists('Config.php')){
       $Media['Destination']
     );
   }
+}else{
+  echo '<p>No extended configuration file found.</p>';
 }
