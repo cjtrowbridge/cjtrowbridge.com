@@ -39,12 +39,11 @@ UpdateMRR();
 
 if(file_exists('Config.php')){
   include('Config.php');
-  global $Config;
-  var_dump($Config);
-  foreach($Config as $Media){
+  global $Media;
+  foreach($Media as $Item){
     UpdateMedia(
-      $Media['Source'],
-      $Media['Destination']
+      $Item['Source'],
+      $Item['Destination']
     );
   }
 }else{
