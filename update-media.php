@@ -40,6 +40,7 @@ UpdateMRR();
 if(file_exists('Config.php')){
   include('Config.php');
   global $Config;
+  var_dump($Config);
   foreach($Config as $Media){
     UpdateMedia(
       $Media['Source'],
