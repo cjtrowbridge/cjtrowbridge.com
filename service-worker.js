@@ -13,7 +13,7 @@ var version = 'v2::';
 */
 var offlineFundamentals = [
   '',
-  'scss/global.processed.css',
+  'css/global.css',
   'js/global.js'
 ];
 
